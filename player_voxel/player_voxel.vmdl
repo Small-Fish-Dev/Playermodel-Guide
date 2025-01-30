@@ -673,46 +673,1036 @@
 						reverse = false
 					},
 					{
-						_class = "AnimFile"
-						name = "walkE"
+						_class = "Folder"
+						name = "walk"
 						children = 
 						[
 							{
-								_class = "ExtractMotion"
-								extract_tx = true
-								extract_ty = true
-								extract_tz = false
-								extract_rz = false
-								linear = false
-								quadratic = false
-								root_bone_name = ""
-								motion_type = "Single"
+								_class = "AnimFile"
+								name = "walkE"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimStartLoop"
+										start_loop_frame = 10
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 26
+										event_keys = 
+										{
+											Attachment = "foot_L"
+											Foot = "0"
+											Volume = 1.0
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 10
+										event_keys = 
+										{
+											Attachment = "foot_R"
+											Foot = "1"
+											Volume = 1.0
+										}
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = true
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/walkE.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								take = 0
+								reverse = false
 							},
 							{
-								_class = "AnimStartLoop"
-								start_loop_frame = 10
+								_class = "AnimFile"
+								name = "walkN"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimStartLoop"
+										start_loop_frame = 10
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 10
+										event_keys = 
+										{
+											Attachment = "foot_R"
+											Foot = "1"
+											Volume = 1.0
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 26
+										event_keys = 
+										{
+											Attachment = "foot_L"
+											Foot = "0"
+											Volume = 1.0
+										}
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = true
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/walkN.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								take = 0
+								reverse = false
 							},
 							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 26
-								event_keys = 
-								{
-									Attachment = "foot_L"
-									Foot = "0"
-									Volume = 1.0
-								}
+								_class = "AnimFile"
+								name = "walkNE"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimStartLoop"
+										start_loop_frame = 10
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 26
+										event_keys = 
+										{
+											Attachment = "foot_L"
+											Foot = "0"
+											Volume = 1.0
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 10
+										event_keys = 
+										{
+											Attachment = "foot_R"
+											Foot = "1"
+											Volume = 1.0
+										}
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = true
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/walkNE.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								take = 0
+								reverse = false
 							},
 							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 10
-								event_keys = 
-								{
-									Attachment = "foot_R"
-									Foot = "1"
-									Volume = 1.0
-								}
+								_class = "AnimFile"
+								name = "walkNW"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimStartLoop"
+										start_loop_frame = 26
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 26
+										event_keys = 
+										{
+											Attachment = "foot_L"
+											Foot = "0"
+											Volume = 1.0
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 10
+										event_keys = 
+										{
+											Attachment = "foot_R"
+											Foot = "1"
+											Volume = 1.0
+										}
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = true
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/walkNW.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								take = 0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "walkS"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimStartLoop"
+										start_loop_frame = 10
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 26
+										event_keys = 
+										{
+											Attachment = "foot_L"
+											Foot = "0"
+											Volume = 1.0
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 10
+										event_keys = 
+										{
+											Attachment = "foot_R"
+											Foot = "1"
+											Volume = 1.0
+										}
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = true
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/walkS.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								take = 0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "walkSE"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimStartLoop"
+										start_loop_frame = 10
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 26
+										event_keys = 
+										{
+											Attachment = "foot_L"
+											Foot = "0"
+											Volume = 1.0
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 10
+										event_keys = 
+										{
+											Attachment = "foot_R"
+											Foot = "1"
+											Volume = 1.0
+										}
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = true
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/walkSE.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								take = 0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "walkSW"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimStartLoop"
+										start_loop_frame = 26
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 26
+										event_keys = 
+										{
+											Attachment = "foot_L"
+											Foot = "0"
+											Volume = 1.0
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 10
+										event_keys = 
+										{
+											Attachment = "foot_R"
+											Foot = "1"
+											Volume = 1.0
+										}
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = true
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/walkSW.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								take = 0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "walkW"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimStartLoop"
+										start_loop_frame = 26
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 26
+										event_keys = 
+										{
+											Attachment = "foot_L"
+											Foot = "0"
+											Volume = 1.0
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 10
+										event_keys = 
+										{
+											Attachment = "foot_R"
+											Foot = "1"
+											Volume = 1.0
+										}
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = true
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/walkW.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								take = 0
+								reverse = false
+							},
+						]
+					},
+					{
+						_class = "Folder"
+						name = "run"
+						children = 
+						[
+							{
+								_class = "AnimFile"
+								name = "runE"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimStartLoop"
+										start_loop_frame = 5
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 10
+										event_keys = 
+										{
+											Attachment = "foot_R"
+											Foot = "1"
+											Volume = 1.0
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 26
+										event_keys = 
+										{
+											Attachment = "foot_L"
+											Foot = "0"
+											Volume = 1.0
+										}
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = true
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/runE.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = 60.0
+								take = 0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "runN"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimStartLoop"
+										start_loop_frame = 5
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 10
+										event_keys = 
+										{
+											Attachment = "foot_R"
+											Foot = "1"
+											Volume = 1.0
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 26
+										event_keys = 
+										{
+											Attachment = "foot_L"
+											Foot = "0"
+											Volume = 1.0
+										}
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = true
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/runN.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = 60.0
+								take = 0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "runNE"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimStartLoop"
+										start_loop_frame = 5
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 10
+										event_keys = 
+										{
+											Attachment = "foot_R"
+											Foot = "1"
+											Volume = 1.0
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 26
+										event_keys = 
+										{
+											Attachment = "foot_L"
+											Foot = "0"
+											Volume = 1.0
+										}
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = true
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/runNE.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = 60.0
+								take = 0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "runNW"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimStartLoop"
+										start_loop_frame = 21
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 10
+										event_keys = 
+										{
+											Attachment = "foot_R"
+											Foot = "1"
+											Volume = 1.0
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 26
+										event_keys = 
+										{
+											Attachment = "foot_L"
+											Foot = "0"
+											Volume = 1.0
+										}
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = true
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/runNW.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = 60.0
+								take = 0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "runS"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimStartLoop"
+										start_loop_frame = 5
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 10
+										event_keys = 
+										{
+											Attachment = "foot_R"
+											Foot = "1"
+											Volume = 1.0
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 26
+										event_keys = 
+										{
+											Attachment = "foot_L"
+											Foot = "0"
+											Volume = 1.0
+										}
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = true
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/runS.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								take = 0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "runSE"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimStartLoop"
+										start_loop_frame = 5
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 10
+										event_keys = 
+										{
+											Attachment = "foot_R"
+											Foot = "1"
+											Volume = 1.0
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 26
+										event_keys = 
+										{
+											Attachment = "foot_L"
+											Foot = "0"
+											Volume = 1.0
+										}
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = true
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/runSE.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = 60.0
+								take = 0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "runSW"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimStartLoop"
+										start_loop_frame = 21
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 10
+										event_keys = 
+										{
+											Attachment = "foot_R"
+											Foot = "1"
+											Volume = 1.0
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 26
+										event_keys = 
+										{
+											Attachment = "foot_L"
+											Foot = "0"
+											Volume = 1.0
+										}
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = true
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/runSW.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = 60.0
+								take = 0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "runW"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimStartLoop"
+										start_loop_frame = 21
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 10
+										event_keys = 
+										{
+											Attachment = "foot_R"
+											Foot = "1"
+											Volume = 1.0
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_FOOTSTEP"
+										event_frame = 26
+										event_keys = 
+										{
+											Attachment = "foot_L"
+											Foot = "0"
+											Volume = 1.0
+										}
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = true
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/runW.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = 60.0
+								take = 0
+								reverse = false
+							},
+						]
+					},
+					{
+						_class = "AnimFile"
+						name = "crouch"
+						children = 
+						[
+							{
+								_class = "AnimSubtract"
+								anim_name = "idle"
+								frame = 0
 							},
 						]
 						activity_name = ""
@@ -720,15 +1710,15 @@
 						weight_list_name = ""
 						fade_in_time = 0.2
 						fade_out_time = 0.2
-						looping = true
+						looping = false
 						delta = false
 						worldSpace = false
 						hidden = false
-						anim_markup_ordered = true
+						anim_markup_ordered = false
 						disable_compression = false
 						disable_interpolation = false
 						enable_scale = false
-						source_filename = "models/player_voxel/animations/walkE.fbx"
+						source_filename = "models/player_voxel/animations/crouch.fbx"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -737,45 +1727,12 @@
 					},
 					{
 						_class = "AnimFile"
-						name = "walkN"
+						name = "idle_delta"
 						children = 
 						[
 							{
-								_class = "ExtractMotion"
-								extract_tx = true
-								extract_ty = true
-								extract_tz = false
-								extract_rz = false
-								linear = false
-								quadratic = false
-								root_bone_name = ""
-								motion_type = "Single"
-							},
-							{
-								_class = "AnimStartLoop"
-								start_loop_frame = 10
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 10
-								event_keys = 
-								{
-									Attachment = "foot_R"
-									Foot = "1"
-									Volume = 1.0
-								}
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 26
-								event_keys = 
-								{
-									Attachment = "foot_L"
-									Foot = "0"
-									Volume = 1.0
-								}
+								_class = "AnimLinearDelta"
+								spline = false
 							},
 						]
 						activity_name = ""
@@ -787,896 +1744,14 @@
 						delta = false
 						worldSpace = false
 						hidden = false
-						anim_markup_ordered = true
+						anim_markup_ordered = false
 						disable_compression = false
 						disable_interpolation = false
 						enable_scale = false
-						source_filename = "models/player_voxel/animations/walkN.fbx"
+						source_filename = "models/player_voxel/animations/idle.fbx"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
-						take = 0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "walkNE"
-						children = 
-						[
-							{
-								_class = "ExtractMotion"
-								extract_tx = true
-								extract_ty = true
-								extract_tz = false
-								extract_rz = false
-								linear = false
-								quadratic = false
-								root_bone_name = ""
-								motion_type = "Single"
-							},
-							{
-								_class = "AnimStartLoop"
-								start_loop_frame = 10
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 26
-								event_keys = 
-								{
-									Attachment = "foot_L"
-									Foot = "0"
-									Volume = 1.0
-								}
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 10
-								event_keys = 
-								{
-									Attachment = "foot_R"
-									Foot = "1"
-									Volume = 1.0
-								}
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = true
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = true
-						disable_compression = false
-						disable_interpolation = false
-						enable_scale = false
-						source_filename = "models/player_voxel/animations/walkNE.fbx"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						take = 0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "walkNW"
-						children = 
-						[
-							{
-								_class = "ExtractMotion"
-								extract_tx = true
-								extract_ty = true
-								extract_tz = false
-								extract_rz = false
-								linear = false
-								quadratic = false
-								root_bone_name = ""
-								motion_type = "Single"
-							},
-							{
-								_class = "AnimStartLoop"
-								start_loop_frame = 26
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 26
-								event_keys = 
-								{
-									Attachment = "foot_L"
-									Foot = "0"
-									Volume = 1.0
-								}
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 10
-								event_keys = 
-								{
-									Attachment = "foot_R"
-									Foot = "1"
-									Volume = 1.0
-								}
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = true
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = true
-						disable_compression = false
-						disable_interpolation = false
-						enable_scale = false
-						source_filename = "models/player_voxel/animations/walkNW.fbx"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						take = 0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "walkS"
-						children = 
-						[
-							{
-								_class = "ExtractMotion"
-								extract_tx = true
-								extract_ty = true
-								extract_tz = false
-								extract_rz = false
-								linear = false
-								quadratic = false
-								root_bone_name = ""
-								motion_type = "Single"
-							},
-							{
-								_class = "AnimStartLoop"
-								start_loop_frame = 10
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 26
-								event_keys = 
-								{
-									Attachment = "foot_L"
-									Foot = "0"
-									Volume = 1.0
-								}
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 10
-								event_keys = 
-								{
-									Attachment = "foot_R"
-									Foot = "1"
-									Volume = 1.0
-								}
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = true
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = true
-						disable_compression = false
-						disable_interpolation = false
-						enable_scale = false
-						source_filename = "models/player_voxel/animations/walkS.fbx"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						take = 0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "walkSE"
-						children = 
-						[
-							{
-								_class = "ExtractMotion"
-								extract_tx = true
-								extract_ty = true
-								extract_tz = false
-								extract_rz = false
-								linear = false
-								quadratic = false
-								root_bone_name = ""
-								motion_type = "Single"
-							},
-							{
-								_class = "AnimStartLoop"
-								start_loop_frame = 10
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 26
-								event_keys = 
-								{
-									Attachment = "foot_L"
-									Foot = "0"
-									Volume = 1.0
-								}
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 10
-								event_keys = 
-								{
-									Attachment = "foot_R"
-									Foot = "1"
-									Volume = 1.0
-								}
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = true
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = true
-						disable_compression = false
-						disable_interpolation = false
-						enable_scale = false
-						source_filename = "models/player_voxel/animations/walkSE.fbx"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						take = 0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "walkSW"
-						children = 
-						[
-							{
-								_class = "ExtractMotion"
-								extract_tx = true
-								extract_ty = true
-								extract_tz = false
-								extract_rz = false
-								linear = false
-								quadratic = false
-								root_bone_name = ""
-								motion_type = "Single"
-							},
-							{
-								_class = "AnimStartLoop"
-								start_loop_frame = 26
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 26
-								event_keys = 
-								{
-									Attachment = "foot_L"
-									Foot = "0"
-									Volume = 1.0
-								}
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 10
-								event_keys = 
-								{
-									Attachment = "foot_R"
-									Foot = "1"
-									Volume = 1.0
-								}
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = true
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = true
-						disable_compression = false
-						disable_interpolation = false
-						enable_scale = false
-						source_filename = "models/player_voxel/animations/walkSW.fbx"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						take = 0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "walkW"
-						children = 
-						[
-							{
-								_class = "ExtractMotion"
-								extract_tx = true
-								extract_ty = true
-								extract_tz = false
-								extract_rz = false
-								linear = false
-								quadratic = false
-								root_bone_name = ""
-								motion_type = "Single"
-							},
-							{
-								_class = "AnimStartLoop"
-								start_loop_frame = 26
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 26
-								event_keys = 
-								{
-									Attachment = "foot_L"
-									Foot = "0"
-									Volume = 1.0
-								}
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 10
-								event_keys = 
-								{
-									Attachment = "foot_R"
-									Foot = "1"
-									Volume = 1.0
-								}
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = true
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = true
-						disable_compression = false
-						disable_interpolation = false
-						enable_scale = false
-						source_filename = "models/player_voxel/animations/walkW.fbx"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						take = 0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "runE"
-						children = 
-						[
-							{
-								_class = "ExtractMotion"
-								extract_tx = true
-								extract_ty = true
-								extract_tz = false
-								extract_rz = false
-								linear = false
-								quadratic = false
-								root_bone_name = ""
-								motion_type = "Single"
-							},
-							{
-								_class = "AnimStartLoop"
-								start_loop_frame = 5
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 10
-								event_keys = 
-								{
-									Attachment = "foot_R"
-									Foot = "1"
-									Volume = 1.0
-								}
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 26
-								event_keys = 
-								{
-									Attachment = "foot_L"
-									Foot = "0"
-									Volume = 1.0
-								}
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = true
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = true
-						disable_compression = false
-						disable_interpolation = false
-						enable_scale = false
-						source_filename = "models/player_voxel/animations/runE.fbx"
-						start_frame = -1
-						end_frame = -1
-						framerate = 60.0
-						take = 0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "runN"
-						children = 
-						[
-							{
-								_class = "ExtractMotion"
-								extract_tx = true
-								extract_ty = true
-								extract_tz = false
-								extract_rz = false
-								linear = false
-								quadratic = false
-								root_bone_name = ""
-								motion_type = "Single"
-							},
-							{
-								_class = "AnimStartLoop"
-								start_loop_frame = 5
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 10
-								event_keys = 
-								{
-									Attachment = "foot_R"
-									Foot = "1"
-									Volume = 1.0
-								}
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 26
-								event_keys = 
-								{
-									Attachment = "foot_L"
-									Foot = "0"
-									Volume = 1.0
-								}
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = true
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = true
-						disable_compression = false
-						disable_interpolation = false
-						enable_scale = false
-						source_filename = "models/player_voxel/animations/runN.fbx"
-						start_frame = -1
-						end_frame = -1
-						framerate = 60.0
-						take = 0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "runNE"
-						children = 
-						[
-							{
-								_class = "ExtractMotion"
-								extract_tx = true
-								extract_ty = true
-								extract_tz = false
-								extract_rz = false
-								linear = false
-								quadratic = false
-								root_bone_name = ""
-								motion_type = "Single"
-							},
-							{
-								_class = "AnimStartLoop"
-								start_loop_frame = 5
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 10
-								event_keys = 
-								{
-									Attachment = "foot_R"
-									Foot = "1"
-									Volume = 1.0
-								}
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 26
-								event_keys = 
-								{
-									Attachment = "foot_L"
-									Foot = "0"
-									Volume = 1.0
-								}
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = true
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = true
-						disable_compression = false
-						disable_interpolation = false
-						enable_scale = false
-						source_filename = "models/player_voxel/animations/runNE.fbx"
-						start_frame = -1
-						end_frame = -1
-						framerate = 60.0
-						take = 0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "runNW"
-						children = 
-						[
-							{
-								_class = "ExtractMotion"
-								extract_tx = true
-								extract_ty = true
-								extract_tz = false
-								extract_rz = false
-								linear = false
-								quadratic = false
-								root_bone_name = ""
-								motion_type = "Single"
-							},
-							{
-								_class = "AnimStartLoop"
-								start_loop_frame = 21
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 10
-								event_keys = 
-								{
-									Attachment = "foot_R"
-									Foot = "1"
-									Volume = 1.0
-								}
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 26
-								event_keys = 
-								{
-									Attachment = "foot_L"
-									Foot = "0"
-									Volume = 1.0
-								}
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = true
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = true
-						disable_compression = false
-						disable_interpolation = false
-						enable_scale = false
-						source_filename = "models/player_voxel/animations/runNW.fbx"
-						start_frame = -1
-						end_frame = -1
-						framerate = 60.0
-						take = 0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "runS"
-						children = 
-						[
-							{
-								_class = "ExtractMotion"
-								extract_tx = true
-								extract_ty = true
-								extract_tz = false
-								extract_rz = false
-								linear = false
-								quadratic = false
-								root_bone_name = ""
-								motion_type = "Single"
-							},
-							{
-								_class = "AnimStartLoop"
-								start_loop_frame = 5
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 10
-								event_keys = 
-								{
-									Attachment = "foot_R"
-									Foot = "1"
-									Volume = 1.0
-								}
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 26
-								event_keys = 
-								{
-									Attachment = "foot_L"
-									Foot = "0"
-									Volume = 1.0
-								}
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = true
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = true
-						disable_compression = false
-						disable_interpolation = false
-						enable_scale = false
-						source_filename = "models/player_voxel/animations/runS.fbx"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						take = 0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "runSE"
-						children = 
-						[
-							{
-								_class = "ExtractMotion"
-								extract_tx = true
-								extract_ty = true
-								extract_tz = false
-								extract_rz = false
-								linear = false
-								quadratic = false
-								root_bone_name = ""
-								motion_type = "Single"
-							},
-							{
-								_class = "AnimStartLoop"
-								start_loop_frame = 5
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 10
-								event_keys = 
-								{
-									Attachment = "foot_R"
-									Foot = "1"
-									Volume = 1.0
-								}
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 26
-								event_keys = 
-								{
-									Attachment = "foot_L"
-									Foot = "0"
-									Volume = 1.0
-								}
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = true
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = true
-						disable_compression = false
-						disable_interpolation = false
-						enable_scale = false
-						source_filename = "models/player_voxel/animations/runSE.fbx"
-						start_frame = -1
-						end_frame = -1
-						framerate = 60.0
-						take = 0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "runSW"
-						children = 
-						[
-							{
-								_class = "ExtractMotion"
-								extract_tx = true
-								extract_ty = true
-								extract_tz = false
-								extract_rz = false
-								linear = false
-								quadratic = false
-								root_bone_name = ""
-								motion_type = "Single"
-							},
-							{
-								_class = "AnimStartLoop"
-								start_loop_frame = 21
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 10
-								event_keys = 
-								{
-									Attachment = "foot_R"
-									Foot = "1"
-									Volume = 1.0
-								}
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 26
-								event_keys = 
-								{
-									Attachment = "foot_L"
-									Foot = "0"
-									Volume = 1.0
-								}
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = true
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = true
-						disable_compression = false
-						disable_interpolation = false
-						enable_scale = false
-						source_filename = "models/player_voxel/animations/runSW.fbx"
-						start_frame = -1
-						end_frame = -1
-						framerate = 60.0
-						take = 0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "runW"
-						children = 
-						[
-							{
-								_class = "ExtractMotion"
-								extract_tx = true
-								extract_ty = true
-								extract_tz = false
-								extract_rz = false
-								linear = false
-								quadratic = false
-								root_bone_name = ""
-								motion_type = "Single"
-							},
-							{
-								_class = "AnimStartLoop"
-								start_loop_frame = 21
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 10
-								event_keys = 
-								{
-									Attachment = "foot_R"
-									Foot = "1"
-									Volume = 1.0
-								}
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
-								event_frame = 26
-								event_keys = 
-								{
-									Attachment = "foot_L"
-									Foot = "0"
-									Volume = 1.0
-								}
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = true
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = true
-						disable_compression = false
-						disable_interpolation = false
-						enable_scale = false
-						source_filename = "models/player_voxel/animations/runW.fbx"
-						start_frame = -1
-						end_frame = -1
-						framerate = 60.0
 						take = 0
 						reverse = false
 					},
@@ -1706,6 +1781,106 @@
 						ignore_rotation = false
 					},
 				]
+			},
+			{
+				_class = "IKData"
+				children = 
+				[
+					{
+						_class = "IKChain"
+						name = "foot_R"
+						children = 
+						[
+							{
+								_class = "IKChainJoint"
+								name = "leg_upper_R"
+								children = 
+								[
+									{
+										_class = "IKChainJoint"
+										name = "leg_lower_R"
+										children = 
+										[
+											{
+												_class = "IKChainJoint"
+												name = "foot_R1"
+												bone = "foot_R"
+											},
+										]
+										bone = "leg_lower_R"
+									},
+								]
+								bone = "leg_upper_R"
+							},
+						]
+						m_bDoBonesOrientAlongPositiveX = true
+						"m_DefaultSolverSettings.m_nNumIterations" = 6
+						"m_DefaultSolverSettings.m_SolverType " = "IKSOLVER_TwoBone"
+						"m_DefaultTargetSettings.m_Bone" = 
+						{
+							m_Name = "IK_foot_R"
+						}
+						"m_DefaultTargetSettings.m_TargetSource" = "Bone"
+						"m_Data.m_DefaultTargetSettings.m_AnimgraphParameterNamePosition" = 
+						{
+							m_id = 4294967295
+						}
+						"m_Data.m_EndEffectorFixedOffsetAttachment" = 
+						{
+							m_Name = ""
+						}
+						"m_Data.m_bParentJointRequiresAlignment" = true
+					},
+					{
+						_class = "IKChain"
+						name = "foot_L"
+						children = 
+						[
+							{
+								_class = "IKChainJoint"
+								name = "leg_upper_L"
+								children = 
+								[
+									{
+										_class = "IKChainJoint"
+										name = "leg_lower_L"
+										children = 
+										[
+											{
+												_class = "IKChainJoint"
+												name = "foot_L1"
+												bone = "foot_L"
+											},
+										]
+										bone = "leg_lower_L"
+									},
+								]
+								bone = "leg_upper_L"
+							},
+						]
+						m_bDoBonesOrientAlongPositiveX = true
+						"m_DefaultSolverSettings.m_nNumIterations" = 6
+						"m_DefaultSolverSettings.m_SolverType " = "IKSOLVER_TwoBone"
+						"m_DefaultTargetSettings.m_Bone" = 
+						{
+							m_Name = "IK_foot_L"
+						}
+						"m_DefaultTargetSettings.m_TargetSource" = "Bone"
+						"m_Data.m_DefaultTargetSettings.m_AnimgraphParameterNamePosition" = 
+						{
+							m_id = 4294967295
+						}
+						"m_Data.m_EndEffectorFixedOffsetAttachment" = 
+						{
+							m_Name = ""
+						}
+						"m_Data.m_bParentJointRequiresAlignment" = true
+					},
+				]
+			},
+			{
+				_class = "BoneMarkupList"
+				bone_cull_type = "None"
 			},
 		]
 		model_archetype = ""
