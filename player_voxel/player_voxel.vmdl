@@ -667,7 +667,7 @@
 						enable_scale = false
 						source_filename = "models/player_voxel/animations/idle.fbx"
 						start_frame = -1
-						end_frame = -1
+						end_frame = 0
 						framerate = -1.0
 						take = 0
 						reverse = false
@@ -1755,6 +1755,83 @@
 						take = 0
 						reverse = false
 					},
+					{
+						_class = "AnimFile"
+						name = "ranged_2H"
+						children = 
+						[
+							{
+								_class = "AnimSubtract"
+								anim_name = "idle"
+								frame = 0
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						disable_interpolation = false
+						enable_scale = false
+						source_filename = "models/player_voxel/animations/ranged_2H.fbx"
+						start_frame = 0
+						end_frame = 10
+						framerate = -1.0
+						take = 0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "ranged_2H_reload_smg"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						disable_interpolation = false
+						enable_scale = false
+						source_filename = "models/player_voxel/animations/ranged_2H_reload_smg.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						take = 0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "ranged_2H_shoot"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						disable_interpolation = false
+						enable_scale = false
+						source_filename = "models/player_voxel/animations/ranged_2H_shoot.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						take = 0
+						reverse = false
+					},
 				]
 				default_root_bone_name = ""
 			},
@@ -1777,6 +1854,24 @@
 						parent_bone = "foot_L"
 						relative_origin = [ 0.0, 0.0, 0.0 ]
 						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "eyes"
+						parent_bone = "head"
+						relative_origin = [ 4.332914, 0.0, 5.474152 ]
+						relative_angles = [ -0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "gun_forward"
+						parent_bone = "hand_R"
+						relative_origin = [ 22.15626, 0.338622, 3.609554 ]
+						relative_angles = [ -0.0, 0.0, 0.0 ]
 						weight = 1.0
 						ignore_rotation = false
 					},
@@ -1876,11 +1971,155 @@
 						}
 						"m_Data.m_bParentJointRequiresAlignment" = true
 					},
+					{
+						_class = "IKChain"
+						name = "hand_L"
+						children = 
+						[
+							{
+								_class = "IKChainJoint"
+								name = "arm_upper_L"
+								children = 
+								[
+									{
+										_class = "IKChainJoint"
+										name = "arm_lower_L"
+										children = 
+										[
+											{
+												_class = "IKChainJoint"
+												name = "hand_L1"
+												bone = "hand_L"
+											},
+										]
+										bone = "arm_lower_L"
+									},
+								]
+								bone = "arm_upper_L"
+							},
+						]
+						m_bDoBonesOrientAlongPositiveX = true
+						"m_DefaultSolverSettings.m_nNumIterations" = 6
+						"m_DefaultSolverSettings.m_SolverType " = "IKSOLVER_TwoBone"
+						"m_DefaultTargetSettings.m_Bone" = 
+						{
+							m_Name = "hand_LtoR"
+						}
+						"m_DefaultTargetSettings.m_TargetSource" = "Bone"
+						"m_Data.m_DefaultTargetSettings.m_AnimgraphParameterNamePosition" = 
+						{
+							m_id = 4294967295
+						}
+						"m_Data.m_EndEffectorFixedOffsetAttachment" = 
+						{
+							m_Name = ""
+						}
+						"m_Data.m_bParentJointRequiresAlignment" = true
+					},
 				]
 			},
 			{
 				_class = "BoneMarkupList"
 				bone_cull_type = "None"
+			},
+			{
+				_class = "WeightListList"
+				children = 
+				[
+					{
+						_class = "WeightList"
+						name = "arms"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "IK_hand_L"
+								weight = 1.0
+							},
+							{
+								bone = "IK_hand_R"
+								weight = 1.0
+							},
+							{
+								bone = "arm_upper_L"
+								weight = 1.0
+							},
+							{
+								bone = "arm_upper_R"
+								weight = 1.0
+							},
+							{
+								bone = "head"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_L"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_R"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "legs"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "IK_foot_L"
+								weight = 1.0
+							},
+							{
+								bone = "IK_foot_R"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_L"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_R"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "LookAtChain"
+						name = "lookat"
+						lookat_chain = 
+						{
+							name = ""
+							bones = 
+							[
+								{
+									name = "head"
+									weight = 1.0
+								},
+								{
+									name = "pelvis"
+									weight = 1.0
+								},
+							]
+						}
+					},
+				]
 			},
 		]
 		model_archetype = ""
