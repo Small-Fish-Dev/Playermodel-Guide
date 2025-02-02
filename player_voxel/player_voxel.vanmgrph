@@ -15,7 +15,7 @@
 				{
 					_class = "CGroupAnimNode"
 					m_sName = "Unnamed"
-					m_vecPosition = [ 496.0, 288.0 ]
+					m_vecPosition = [ 512.0, 288.0 ]
 					m_nNodeID = 
 					{
 						m_id = 515425456
@@ -649,7 +649,7 @@
 								{
 									_class = "CGroupOutputAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 768.0, -128.0 ]
+									m_vecPosition = [ 752.0, -48.0 ]
 									m_nNodeID = 
 									{
 										m_id = 324295745
@@ -667,7 +667,7 @@
 											{
 												m_nodeID = 
 												{
-													m_id = 516468269
+													m_id = 1115045148
 												}
 												m_outputID = 
 												{
@@ -687,7 +687,7 @@
 								{
 									_class = "CLookAtAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 368.0, -64.0 ]
+									m_vecPosition = [ 368.0, -48.0 ]
 									m_nNodeID = 
 									{
 										m_id = 516468269
@@ -743,7 +743,7 @@
 								{
 									_class = "CAddAnimNode"
 									m_sName = "Pose Additive"
-									m_vecPosition = [ -368.0, 16.0 ]
+									m_vecPosition = [ -80.0, -32.0 ]
 									m_nNodeID = 
 									{
 										m_id = 554090850
@@ -809,7 +809,7 @@
 								{
 									_class = "CBoneMaskAnimNode"
 									m_sName = "Model Space Legs"
-									m_vecPosition = [ 576.0, -64.0 ]
+									m_vecPosition = [ 576.0, -48.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1115045148
@@ -862,7 +862,7 @@
 								{
 									_class = "CGroupInputAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ -608.0, -32.0 ]
+									m_vecPosition = [ -320.0, -32.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1177752262
@@ -900,7 +900,7 @@
 								{
 									_class = "CSingleFrameAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ -608.0, 112.0 ]
+									m_vecPosition = [ -320.0, 64.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1231536677
@@ -920,7 +920,7 @@
 								{
 									_class = "CBoneMaskAnimNode"
 									m_sName = "Arm Mask"
-									m_vecPosition = [ 144.0, -48.0 ]
+									m_vecPosition = [ 144.0, -32.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1361841308
@@ -931,7 +931,7 @@
 									{
 										m_nodeID = 
 										{
-											m_id = 1662104745
+											m_id = 554090850
 										}
 										m_outputID = 
 										{
@@ -973,7 +973,7 @@
 								{
 									_class = "CAddAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ -368.0, 96.0 ]
+									m_vecPosition = [ -80.0, 48.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1531028657
@@ -1019,7 +1019,7 @@
 								{
 									_class = "CBoneMaskAnimNode"
 									m_sName = "Leg Pose Mask"
-									m_vecPosition = [ -128.0, -48.0 ]
+									m_vecPosition = [ -48.0, -144.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1662104745
@@ -1030,18 +1030,18 @@
 									{
 										m_nodeID = 
 										{
-											m_id = 1177752262
+											m_id = 4294967295
 										}
 										m_outputID = 
 										{
-											m_id = 1120532391
+											m_id = 4294967295
 										}
 									}
 									m_inputConnection2 = 
 									{
 										m_nodeID = 
 										{
-											m_id = 2112105247
+											m_id = 4294967295
 										}
 										m_outputID = 
 										{
@@ -1072,7 +1072,7 @@
 								{
 									_class = "CSingleFrameAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ -608.0, 64.0 ]
+									m_vecPosition = [ -320.0, 16.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1743880253
@@ -1105,11 +1105,11 @@
 											{
 												m_nodeID = 
 												{
-													m_id = 1177752262
+													m_id = 4294967295
 												}
 												m_outputID = 
 												{
-													m_id = 1120532391
+													m_id = 4294967295
 												}
 											}
 											m_name = ""
@@ -1120,7 +1120,7 @@
 											{
 												m_nodeID = 
 												{
-													m_id = 554090850
+													m_id = 4294967295
 												}
 												m_outputID = 
 												{
@@ -1166,7 +1166,7 @@
 				{
 					_class = "CRootAnimNode"
 					m_sName = "Unnamed"
-					m_vecPosition = [ 1424.0, 288.0 ]
+					m_vecPosition = [ 1408.0, 288.0 ]
 					m_nNodeID = 
 					{
 						m_id = 1644206073
@@ -1194,7 +1194,7 @@
 				{
 					_class = "CSolveIKChainAnimNode"
 					m_sName = "Unnamed"
-					m_vecPosition = [ 1248.0, 288.0 ]
+					m_vecPosition = [ 1232.0, 288.0 ]
 					m_nNodeID = 
 					{
 						m_id = 1878916000
@@ -1277,7 +1277,7 @@
 				{
 					_class = "CSolveIKChainAnimNode"
 					m_sName = "Hand LtoR"
-					m_vecPosition = [ 1072.0, 288.0 ]
+					m_vecPosition = [ 1056.0, 288.0 ]
 					m_nNodeID = 
 					{
 						m_id = 1886810832

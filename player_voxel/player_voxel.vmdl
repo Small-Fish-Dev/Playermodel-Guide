@@ -671,6 +671,13 @@
 						framerate = -1.0
 						take = 0
 						reverse = false
+						anim_hold_list = 
+						[
+							{
+								frame = 0
+								frame_count = 32
+							},
+						]
 					},
 					{
 						_class = "Folder"
