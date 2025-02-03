@@ -14,8 +14,8 @@
 				value = 
 				{
 					_class = "CGroupAnimNode"
-					m_sName = "Unnamed"
-					m_vecPosition = [ 512.0, 288.0 ]
+					m_sName = "Movement"
+					m_vecPosition = [ 816.0, 224.0 ]
 					m_nNodeID = 
 					{
 						m_id = 515425456
@@ -406,7 +406,7 @@
 				{
 					_class = "CGroupAnimNode"
 					m_sName = "Breathing"
-					m_vecPosition = [ 880.0, 288.0 ]
+					m_vecPosition = [ 1568.0, 208.0 ]
 					m_nNodeID = 
 					{
 						m_id = 587017060
@@ -431,11 +431,11 @@
 							{
 								m_nodeID = 
 								{
-									m_id = 1261924932
+									m_id = 1115045148
 								}
 								m_outputID = 
 								{
-									m_id = 3307690
+									m_id = 4294967295
 								}
 							}
 						},
@@ -595,13 +595,66 @@
 			{
 				key = 
 				{
+					m_id = 1115045148
+				}
+				value = 
+				{
+					_class = "CBoneMaskAnimNode"
+					m_sName = "Model Space Legs"
+					m_vecPosition = [ 1360.0, 208.0 ]
+					m_nNodeID = 
+					{
+						m_id = 1115045148
+					}
+					m_sNote = "This node takes the rotations of the legs from before the Look At is applied, and substitutes them.\n\nIf it were kept in Parent Space, the rotation of the pelvis would still affect the legs, but not in a Model Space blend.\n\nWe only need the rotations though."
+					m_weightListName = "legs"
+					m_inputConnection1 = 
+					{
+						m_nodeID = 
+						{
+							m_id = 1261924932
+						}
+						m_outputID = 
+						{
+							m_id = 3307690
+						}
+					}
+					m_inputConnection2 = 
+					{
+						m_nodeID = 
+						{
+							m_id = 515425456
+						}
+						m_outputID = 
+						{
+							m_id = 713247493
+						}
+					}
+					m_blendSpace = "BlendSpace_Model_RotationOnly"
+					m_bUseBlendScale = false
+					m_blendValueSource = "Parameter"
+					m_blendParameter = 
+					{
+						m_id = 4294967295
+					}
+					m_timingBehavior = "UseChild2"
+					m_flTimingBlend = 0.5
+					m_flRootMotionBlend = 0.0
+					m_footMotionTiming = "Child1"
+					m_bResetChild1 = true
+					m_bResetChild2 = true
+				}
+			},
+			{
+				key = 
+				{
 					m_id = 1261924932
 				}
 				value = 
 				{
 					_class = "CGroupAnimNode"
 					m_sName = "Ranged 2H"
-					m_vecPosition = [ 688.0, 288.0 ]
+					m_vecPosition = [ 1040.0, 192.0 ]
 					m_nNodeID = 
 					{
 						m_id = 1261924932
@@ -649,7 +702,7 @@
 								{
 									_class = "CGroupOutputAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 752.0, -48.0 ]
+									m_vecPosition = [ 960.0, -32.0 ]
 									m_nNodeID = 
 									{
 										m_id = 324295745
@@ -667,7 +720,7 @@
 											{
 												m_nodeID = 
 												{
-													m_id = 1115045148
+													m_id = 464985904
 												}
 												m_outputID = 
 												{
@@ -681,13 +734,83 @@
 							{
 								key = 
 								{
+									m_id = 464985904
+								}
+								value = 
+								{
+									_class = "CBlendAnimNode"
+									m_sName = "Unnamed"
+									m_vecPosition = [ 752.0, -32.0 ]
+									m_nNodeID = 
+									{
+										m_id = 464985904
+									}
+									m_sNote = "We use the root motion speed instead of a parameter, as we don\'t have a unified parameter that sets speed."
+									m_children = 
+									[
+										{
+											m_inputConnection = 
+											{
+												m_nodeID = 
+												{
+													m_id = 516468269
+												}
+												m_outputID = 
+												{
+													m_id = 4294967295
+												}
+											}
+											m_name = "Stance"
+											m_blendValue = 0.0
+										},
+										{
+											m_inputConnection = 
+											{
+												m_nodeID = 
+												{
+													m_id = 1203178044
+												}
+												m_outputID = 
+												{
+													m_id = 4294967295
+												}
+											}
+											m_name = "Walk"
+											m_blendValue = 38.0
+										},
+									]
+									m_blendValueSource = "RootMotionSpeed"
+									m_param = 
+									{
+										m_id = 1609415738
+									}
+									m_blendKeyType = "BlendKey_UserValue"
+									m_bLockBlendOnReset = false
+									m_bSyncCycles = true
+									m_bLoop = true
+									m_bLockWhenWaning = true
+									m_damping = 
+									{
+										_class = "CAnimInputDamping"
+										m_speedFunction = "NoDamping"
+										m_fSpeedScale = 1.0
+										m_fMinSpeed = 10.0
+										m_fMaxTension = 1000.0
+										m_fTension = 100.0
+										m_fDamping = 5.0
+									}
+								}
+							},
+							{
+								key = 
+								{
 									m_id = 516468269
 								}
 								value = 
 								{
 									_class = "CLookAtAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 368.0, -48.0 ]
+									m_vecPosition = [ 352.0, -32.0 ]
 									m_nNodeID = 
 									{
 										m_id = 516468269
@@ -718,7 +841,7 @@
 									m_flYawLimit = 90.0
 									m_flPitchLimit = 90.0
 									m_bResetBase = true
-									m_bLockWhenWaning = true
+									m_bLockWhenWaning = false
 									m_bUseHysteresis = false
 									m_flHysteresisInnerAngle = 1.0
 									m_flHysteresisOuterAngle = 20.0
@@ -742,7 +865,7 @@
 								value = 
 								{
 									_class = "CAddAnimNode"
-									m_sName = "Pose Additive"
+									m_sName = "Gun Additive"
 									m_vecPosition = [ -80.0, -32.0 ]
 									m_nNodeID = 
 									{
@@ -783,86 +906,13 @@
 							{
 								key = 
 								{
-									m_id = 709165646
-								}
-								value = 
-								{
-									_class = "CCommentAnimNode"
-									m_sName = "todo"
-									m_vecPosition = [ -32.0, -352.0 ]
-									m_nNodeID = 
-									{
-										m_id = 709165646
-									}
-									m_sNote = ""
-									m_commentText = "the stupid fucking model space legs messes with the 1d \"foot pose\" blend\nfind a way to have it work with both."
-									m_size = [ 384.0, 192.0 ]
-									m_color = [ 220, 20, 60, 255 ]
-								}
-							},
-							{
-								key = 
-								{
-									m_id = 1115045148
-								}
-								value = 
-								{
-									_class = "CBoneMaskAnimNode"
-									m_sName = "Model Space Legs"
-									m_vecPosition = [ 576.0, -48.0 ]
-									m_nNodeID = 
-									{
-										m_id = 1115045148
-									}
-									m_sNote = "This node takes the rotations of the legs from before the Look At is applied, and substitutes them.\n\nIf it were kept in Parent Space, the rotation of the pelvis would still affect the legs, but not in a Model Space blend.\n\nWe only need the rotations though."
-									m_weightListName = "legs"
-									m_inputConnection1 = 
-									{
-										m_nodeID = 
-										{
-											m_id = 516468269
-										}
-										m_outputID = 
-										{
-											m_id = 4294967295
-										}
-									}
-									m_inputConnection2 = 
-									{
-										m_nodeID = 
-										{
-											m_id = 1361841308
-										}
-										m_outputID = 
-										{
-											m_id = 4294967295
-										}
-									}
-									m_blendSpace = "BlendSpace_Model_RotationOnly"
-									m_bUseBlendScale = false
-									m_blendValueSource = "Parameter"
-									m_blendParameter = 
-									{
-										m_id = 4294967295
-									}
-									m_timingBehavior = "UseChild2"
-									m_flTimingBlend = 0.5
-									m_flRootMotionBlend = 0.0
-									m_footMotionTiming = "Child1"
-									m_bResetChild1 = true
-									m_bResetChild2 = true
-								}
-							},
-							{
-								key = 
-								{
 									m_id = 1177752262
 								}
 								value = 
 								{
 									_class = "CGroupInputAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ -320.0, -32.0 ]
+									m_vecPosition = [ -320.0, -96.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1177752262
@@ -889,6 +939,59 @@
 											}
 										},
 									]
+								}
+							},
+							{
+								key = 
+								{
+									m_id = 1203178044
+								}
+								value = 
+								{
+									_class = "CBoneMaskAnimNode"
+									m_sName = "Leg Stance Mask"
+									m_vecPosition = [ 560.0, -112.0 ]
+									m_nNodeID = 
+									{
+										m_id = 1203178044
+									}
+									m_sNote = ""
+									m_weightListName = "legs"
+									m_inputConnection1 = 
+									{
+										m_nodeID = 
+										{
+											m_id = 516468269
+										}
+										m_outputID = 
+										{
+											m_id = 4294967295
+										}
+									}
+									m_inputConnection2 = 
+									{
+										m_nodeID = 
+										{
+											m_id = 1177752262
+										}
+										m_outputID = 
+										{
+											m_id = 1120532391
+										}
+									}
+									m_blendSpace = "BlendSpace_Parent"
+									m_bUseBlendScale = false
+									m_blendValueSource = "Parameter"
+									m_blendParameter = 
+									{
+										m_id = 4294967295
+									}
+									m_timingBehavior = "UseChild2"
+									m_flTimingBlend = 0.5
+									m_flRootMotionBlend = 0.0
+									m_footMotionTiming = "Child1"
+									m_bResetChild1 = true
+									m_bResetChild2 = true
 								}
 							},
 							{
@@ -1013,59 +1116,6 @@
 							{
 								key = 
 								{
-									m_id = 1662104745
-								}
-								value = 
-								{
-									_class = "CBoneMaskAnimNode"
-									m_sName = "Leg Pose Mask"
-									m_vecPosition = [ -48.0, -144.0 ]
-									m_nNodeID = 
-									{
-										m_id = 1662104745
-									}
-									m_sNote = ""
-									m_weightListName = "legs"
-									m_inputConnection1 = 
-									{
-										m_nodeID = 
-										{
-											m_id = 4294967295
-										}
-										m_outputID = 
-										{
-											m_id = 4294967295
-										}
-									}
-									m_inputConnection2 = 
-									{
-										m_nodeID = 
-										{
-											m_id = 4294967295
-										}
-										m_outputID = 
-										{
-											m_id = 4294967295
-										}
-									}
-									m_blendSpace = "BlendSpace_Parent"
-									m_bUseBlendScale = false
-									m_blendValueSource = "Parameter"
-									m_blendParameter = 
-									{
-										m_id = 4294967295
-									}
-									m_timingBehavior = "UseChild2"
-									m_flTimingBlend = 0.5
-									m_flRootMotionBlend = 0.0
-									m_footMotionTiming = "Child1"
-									m_bResetChild1 = true
-									m_bResetChild2 = true
-								}
-							},
-							{
-								key = 
-								{
 									m_id = 1743880253
 								}
 								value = 
@@ -1083,76 +1133,6 @@
 									m_tagSpans = [  ]
 								}
 							},
-							{
-								key = 
-								{
-									m_id = 2112105247
-								}
-								value = 
-								{
-									_class = "CBlendAnimNode"
-									m_sName = "Unnamed"
-									m_vecPosition = [ -224.0, -144.0 ]
-									m_nNodeID = 
-									{
-										m_id = 2112105247
-									}
-									m_sNote = ""
-									m_children = 
-									[
-										{
-											m_inputConnection = 
-											{
-												m_nodeID = 
-												{
-													m_id = 4294967295
-												}
-												m_outputID = 
-												{
-													m_id = 4294967295
-												}
-											}
-											m_name = ""
-											m_blendValue = 1.0
-										},
-										{
-											m_inputConnection = 
-											{
-												m_nodeID = 
-												{
-													m_id = 4294967295
-												}
-												m_outputID = 
-												{
-													m_id = 4294967295
-												}
-											}
-											m_name = ""
-											m_blendValue = 0.0
-										},
-									]
-									m_blendValueSource = "Parameter"
-									m_param = 
-									{
-										m_id = 1609415738
-									}
-									m_blendKeyType = "BlendKey_UserValue"
-									m_bLockBlendOnReset = false
-									m_bSyncCycles = true
-									m_bLoop = true
-									m_bLockWhenWaning = true
-									m_damping = 
-									{
-										_class = "CAnimInputDamping"
-										m_speedFunction = "NoDamping"
-										m_fSpeedScale = 1.0
-										m_fMinSpeed = 10.0
-										m_fMaxTension = 1000.0
-										m_fTension = 100.0
-										m_fDamping = 5.0
-									}
-								}
-							},
 						]
 					}
 				}
@@ -1166,7 +1146,7 @@
 				{
 					_class = "CRootAnimNode"
 					m_sName = "Unnamed"
-					m_vecPosition = [ 1408.0, 288.0 ]
+					m_vecPosition = [ 2128.0, 208.0 ]
 					m_nNodeID = 
 					{
 						m_id = 1644206073
@@ -1194,7 +1174,7 @@
 				{
 					_class = "CSolveIKChainAnimNode"
 					m_sName = "Unnamed"
-					m_vecPosition = [ 1232.0, 288.0 ]
+					m_vecPosition = [ 1952.0, 208.0 ]
 					m_nNodeID = 
 					{
 						m_id = 1878916000
@@ -1277,7 +1257,7 @@
 				{
 					_class = "CSolveIKChainAnimNode"
 					m_sName = "Hand LtoR"
-					m_vecPosition = [ 1056.0, 288.0 ]
+					m_vecPosition = [ 1776.0, 208.0 ]
 					m_nNodeID = 
 					{
 						m_id = 1886810832
@@ -1388,7 +1368,7 @@
 			},
 			{
 				_class = "CFloatAnimParameter"
-				m_name = "yuga"
+				m_name = "wish_speed"
 				m_id = 
 				{
 					m_id = 1609415738
@@ -1398,7 +1378,7 @@
 				m_bAutoReset = false
 				m_fDefaultValue = 0.0
 				m_fMinValue = 0.0
-				m_fMaxValue = 1.0
+				m_fMaxValue = 266.0
 			},
 		]
 	}
