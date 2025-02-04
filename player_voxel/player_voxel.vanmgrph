@@ -15,7 +15,7 @@
 				{
 					_class = "CGroupAnimNode"
 					m_sName = "Movement"
-					m_vecPosition = [ 816.0, 224.0 ]
+					m_vecPosition = [ 976.0, 224.0 ]
 					m_nNodeID = 
 					{
 						m_id = 515425456
@@ -406,7 +406,7 @@
 				{
 					_class = "CGroupAnimNode"
 					m_sName = "Breathing"
-					m_vecPosition = [ 1568.0, 208.0 ]
+					m_vecPosition = [ 1552.0, 208.0 ]
 					m_nNodeID = 
 					{
 						m_id = 587017060
@@ -653,8 +653,8 @@
 				value = 
 				{
 					_class = "CGroupAnimNode"
-					m_sName = "Ranged 2H"
-					m_vecPosition = [ 1040.0, 192.0 ]
+					m_sName = "Rifle"
+					m_vecPosition = [ 1168.0, 192.0 ]
 					m_nNodeID = 
 					{
 						m_id = 1261924932
@@ -702,7 +702,7 @@
 								{
 									_class = "CGroupOutputAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 960.0, -32.0 ]
+									m_vecPosition = [ 1104.0, -32.0 ]
 									m_nNodeID = 
 									{
 										m_id = 324295745
@@ -740,7 +740,7 @@
 								{
 									_class = "CBlendAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 752.0, -32.0 ]
+									m_vecPosition = [ 912.0, -32.0 ]
 									m_nNodeID = 
 									{
 										m_id = 464985904
@@ -810,7 +810,7 @@
 								{
 									_class = "CLookAtAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 352.0, -32.0 ]
+									m_vecPosition = [ 528.0, -32.0 ]
 									m_nNodeID = 
 									{
 										m_id = 516468269
@@ -820,7 +820,7 @@
 									{
 										m_nodeID = 
 										{
-											m_id = 1361841308
+											m_id = 1520412102
 										}
 										m_outputID = 
 										{
@@ -950,7 +950,7 @@
 								{
 									_class = "CBoneMaskAnimNode"
 									m_sName = "Leg Stance Mask"
-									m_vecPosition = [ 560.0, -112.0 ]
+									m_vecPosition = [ 720.0, -112.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1203178044
@@ -1070,6 +1070,57 @@
 							{
 								key = 
 								{
+									m_id = 1520412102
+								}
+								value = 
+								{
+									_class = "CAimMatrixAnimNode"
+									m_sName = "Unnamed"
+									m_vecPosition = [ 336.0, -32.0 ]
+									m_nNodeID = 
+									{
+										m_id = 1520412102
+									}
+									m_sNote = ""
+									m_inputConnection = 
+									{
+										m_nodeID = 
+										{
+											m_id = 1361841308
+										}
+										m_outputID = 
+										{
+											m_id = 4294967295
+										}
+									}
+									m_sequenceName = "ranged_2H_matrix"
+									m_fAngleIncrement = 45.0
+									m_bCanLookStraightDown = true
+									m_target = "VectorParameter"
+									m_param = 
+									{
+										m_id = 186504717
+									}
+									m_attachmentName = "gun_forward"
+									m_blendMode = "AimMatrixBlendMode_Additive"
+									m_boneMaskName = ""
+									m_bResetBase = true
+									m_bLockWhenWaning = true
+									m_damping = 
+									{
+										_class = "CAnimInputDamping"
+										m_speedFunction = "NoDamping"
+										m_fSpeedScale = 1.0
+										m_fMinSpeed = 10.0
+										m_fMaxTension = 1000.0
+										m_fTension = 100.0
+										m_fDamping = 5.0
+									}
+								}
+							},
+							{
+								key = 
+								{
 									m_id = 1531028657
 								}
 								value = 
@@ -1146,7 +1197,7 @@
 				{
 					_class = "CRootAnimNode"
 					m_sName = "Unnamed"
-					m_vecPosition = [ 2128.0, 208.0 ]
+					m_vecPosition = [ 2096.0, 208.0 ]
 					m_nNodeID = 
 					{
 						m_id = 1644206073
@@ -1174,7 +1225,7 @@
 				{
 					_class = "CSolveIKChainAnimNode"
 					m_sName = "Unnamed"
-					m_vecPosition = [ 1952.0, 208.0 ]
+					m_vecPosition = [ 1920.0, 208.0 ]
 					m_nNodeID = 
 					{
 						m_id = 1878916000
@@ -1257,7 +1308,7 @@
 				{
 					_class = "CSolveIKChainAnimNode"
 					m_sName = "Hand LtoR"
-					m_vecPosition = [ 1776.0, 208.0 ]
+					m_vecPosition = [ 1744.0, 208.0 ]
 					m_nNodeID = 
 					{
 						m_id = 1886810832
@@ -1365,20 +1416,6 @@
 				m_bUseMostRecentValue = false
 				m_bAutoReset = false
 				m_defaultValue = [ 10.0, 0.0, 0.0 ]
-			},
-			{
-				_class = "CFloatAnimParameter"
-				m_name = "wish_speed"
-				m_id = 
-				{
-					m_id = 1609415738
-				}
-				m_previewButton = "ANIMPARAM_BUTTON_NONE"
-				m_bUseMostRecentValue = false
-				m_bAutoReset = false
-				m_fDefaultValue = 0.0
-				m_fMinValue = 0.0
-				m_fMaxValue = 266.0
 			},
 		]
 	}
