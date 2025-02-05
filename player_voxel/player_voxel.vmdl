@@ -1787,8 +1787,8 @@
 						disable_interpolation = false
 						enable_scale = false
 						source_filename = "models/player_voxel/animations/ranged_2H.fbx"
-						start_frame = 0
-						end_frame = 10
+						start_frame = -1
+						end_frame = -1
 						framerate = -1.0
 						take = 0
 						reverse = false
@@ -1818,8 +1818,8 @@
 						disable_interpolation = false
 						enable_scale = false
 						source_filename = "models/player_voxel/animations/ranged_2H.fbx"
-						start_frame = 0
-						end_frame = 10
+						start_frame = -1
+						end_frame = -1
 						framerate = -1.0
 						take = 0
 						reverse = false
@@ -1853,7 +1853,7 @@
 						_class = "Attachment"
 						name = "eyes"
 						parent_bone = "head"
-						relative_origin = [ 4.332914, 0.0, 5.474152 ]
+						relative_origin = [ 4.324545, 0.0, 5.630604 ]
 						relative_angles = [ -0.0, 0.0, 0.0 ]
 						weight = 1.0
 						ignore_rotation = false
@@ -1862,7 +1862,7 @@
 						_class = "Attachment"
 						name = "gun_forward"
 						parent_bone = "hand_R"
-						relative_origin = [ 22.15626, 0.338622, 3.609554 ]
+						relative_origin = [ 22.160406, 1.428071, 3.653282 ]
 						relative_angles = [ -0.0, 0.0, 0.0 ]
 						weight = 1.0
 						ignore_rotation = false
@@ -1965,7 +1965,7 @@
 					},
 					{
 						_class = "IKChain"
-						name = "hand_L"
+						name = "hand_LtoR"
 						children = 
 						[
 							{
@@ -2020,7 +2020,7 @@
 				[
 					{
 						_class = "WeightList"
-						name = "arms"
+						name = "torso"
 						default_weight = 0.0
 						weights = 
 						[
@@ -2043,14 +2043,6 @@
 							{
 								bone = "head"
 								weight = 1.0
-							},
-							{
-								bone = "leg_upper_L"
-								weight = 0.0
-							},
-							{
-								bone = "leg_upper_R"
-								weight = 0.0
 							},
 							{
 								bone = "pelvis"
