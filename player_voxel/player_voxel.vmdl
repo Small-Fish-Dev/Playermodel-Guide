@@ -2088,6 +2088,136 @@
 								take = 0
 								reverse = false
 							},
+							{
+								_class = "Folder"
+								name = "shotgun"
+								children = 
+								[
+									{
+										_class = "AnimFile"
+										name = "ranged_2H_reload_shotgun_start"
+										children = 
+										[
+											{
+												_class = "AnimSubtract"
+												anim_name = "idle"
+												frame = 0
+											},
+										]
+										activity_name = ""
+										activity_weight = 1
+										weight_list_name = ""
+										fade_in_time = 0.2
+										fade_out_time = 0.2
+										looping = false
+										delta = false
+										worldSpace = false
+										hidden = false
+										anim_markup_ordered = false
+										disable_compression = false
+										disable_interpolation = false
+										enable_scale = false
+										source_filename = "models/player_voxel/animations/ranged_2H_reload_shotgun.fbx"
+										start_frame = -1
+										end_frame = 8
+										framerate = -1.0
+										take = 0
+										reverse = false
+									},
+									{
+										_class = "AnimFile"
+										name = "ranged_2H_reload_shotgun_loop"
+										children = 
+										[
+											{
+												_class = "AnimSubtract"
+												anim_name = "idle"
+												frame = 0
+											},
+										]
+										activity_name = ""
+										activity_weight = 1
+										weight_list_name = ""
+										fade_in_time = 0.2
+										fade_out_time = 0.2
+										looping = false
+										delta = false
+										worldSpace = false
+										hidden = false
+										anim_markup_ordered = false
+										disable_compression = false
+										disable_interpolation = false
+										enable_scale = false
+										source_filename = "models/player_voxel/animations/ranged_2H_reload_shotgun.fbx"
+										start_frame = 8
+										end_frame = 50
+										framerate = -1.0
+										take = 0
+										reverse = false
+									},
+									{
+										_class = "AnimFile"
+										name = "ranged_2H_reload_shotgun_end"
+										children = 
+										[
+											{
+												_class = "AnimSubtract"
+												anim_name = "idle"
+												frame = 0
+											},
+										]
+										activity_name = ""
+										activity_weight = 1
+										weight_list_name = ""
+										fade_in_time = 0.2
+										fade_out_time = 0.2
+										looping = false
+										delta = false
+										worldSpace = false
+										hidden = false
+										anim_markup_ordered = false
+										disable_compression = false
+										disable_interpolation = false
+										enable_scale = false
+										source_filename = "models/player_voxel/animations/ranged_2H_reload_shotgun.fbx"
+										start_frame = 50
+										end_frame = 134
+										framerate = -1.0
+										take = 0
+										reverse = false
+									},
+									{
+										_class = "AnimFile"
+										name = "ranged_2H_shoot_shotgun"
+										children = 
+										[
+											{
+												_class = "AnimLinearDelta"
+												spline = false
+											},
+										]
+										activity_name = ""
+										activity_weight = 1
+										weight_list_name = ""
+										fade_in_time = 0.2
+										fade_out_time = 0.2
+										looping = false
+										delta = false
+										worldSpace = false
+										hidden = false
+										anim_markup_ordered = false
+										disable_compression = false
+										disable_interpolation = false
+										enable_scale = false
+										source_filename = "models/player_voxel/animations/ranged_2H_shoot_shotgun.fbx"
+										start_frame = -1
+										end_frame = -1
+										framerate = -1.0
+										take = 0
+										reverse = false
+									},
+								]
+							},
 						]
 					},
 				]
