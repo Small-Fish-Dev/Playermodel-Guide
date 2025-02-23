@@ -1764,174 +1764,7 @@
 					},
 					{
 						_class = "Folder"
-						name = "ranged_1H"
-						children = 
-						[
-							{
-								_class = "AnimFile"
-								name = "ranged_1H"
-								children = 
-								[
-									{
-										_class = "AnimSubtract"
-										anim_name = "idle"
-										frame = 0
-									},
-								]
-								activity_name = ""
-								activity_weight = 1
-								weight_list_name = ""
-								fade_in_time = 0.2
-								fade_out_time = 0.2
-								looping = false
-								delta = false
-								worldSpace = false
-								hidden = false
-								anim_markup_ordered = false
-								disable_compression = false
-								disable_interpolation = false
-								enable_scale = false
-								source_filename = "models/player_voxel/animations/ranged_1H.fbx"
-								start_frame = -1
-								end_frame = -1
-								framerate = -1.0
-								take = 0
-								reverse = false
-							},
-							{
-								_class = "AnimFile"
-								name = "ranged_1H_matrix"
-								children = 
-								[
-									{
-										_class = "AnimSubtract"
-										anim_name = "ranged_1H_matrix"
-										frame = 4
-									},
-								]
-								activity_name = ""
-								activity_weight = 1
-								weight_list_name = ""
-								fade_in_time = 0.2
-								fade_out_time = 0.2
-								looping = false
-								delta = false
-								worldSpace = false
-								hidden = false
-								anim_markup_ordered = false
-								disable_compression = false
-								disable_interpolation = false
-								enable_scale = false
-								source_filename = "models/player_voxel/animations/ranged_1H.fbx"
-								start_frame = -1
-								end_frame = -1
-								framerate = -1.0
-								take = 0
-								reverse = false
-							},
-							{
-								_class = "AnimFile"
-								name = "ranged_1H_reload_revolver"
-								children = 
-								[
-									{
-										_class = "AnimSubtract"
-										anim_name = "idle"
-										frame = 4
-									},
-								]
-								activity_name = ""
-								activity_weight = 1
-								weight_list_name = ""
-								fade_in_time = 0.2
-								fade_out_time = 0.2
-								looping = false
-								delta = false
-								worldSpace = false
-								hidden = false
-								anim_markup_ordered = false
-								disable_compression = false
-								disable_interpolation = false
-								enable_scale = false
-								source_filename = "models/player_voxel/animations/ranged_1H_reload_revolver.fbx"
-								start_frame = -1
-								end_frame = -1
-								framerate = -1.0
-								take = 0
-								reverse = false
-							},
-							{
-								_class = "AnimFile"
-								name = "ranged_1H_run"
-								children = 
-								[
-									{
-										_class = "AnimSubtract"
-										anim_name = "idle"
-										frame = 4
-									},
-								]
-								activity_name = ""
-								activity_weight = 1
-								weight_list_name = ""
-								fade_in_time = 0.2
-								fade_out_time = 0.2
-								looping = false
-								delta = false
-								worldSpace = false
-								hidden = false
-								anim_markup_ordered = false
-								disable_compression = false
-								disable_interpolation = false
-								enable_scale = false
-								source_filename = "models/player_voxel/animations/ranged_1H_run.fbx"
-								start_frame = -1
-								end_frame = -1
-								framerate = -1.0
-								take = 0
-								reverse = false
-							},
-							{
-								_class = "AnimFile"
-								name = "ranged_1H_shoot"
-								children = 
-								[
-									{
-										_class = "AnimSubtractModelSpace"
-										anim_name = "ranged_1H_shoot"
-										frame = 0
-									},
-									{
-										_class = "AnimSmoothLoop"
-										frames_from_start = 0
-										frames_from_end = 2
-									},
-								]
-								activity_name = ""
-								activity_weight = 1
-								weight_list_name = ""
-								fade_in_time = 0.2
-								fade_out_time = 0.2
-								looping = false
-								delta = false
-								worldSpace = false
-								hidden = false
-								anim_markup_ordered = false
-								disable_compression = false
-								disable_interpolation = false
-								enable_scale = false
-								source_filename = "models/player_voxel/animations/ranged_2H_shoot_shotgun.fbx"
-								start_frame = -1
-								end_frame = 22
-								framerate = -1.0
-								take = 0
-								reverse = false
-							},
-						]
-					},
-					{
-						_class = "Folder"
-						name = "ranged_2H"
+						name = "Ranged_2H"
 						children = 
 						[
 							{
@@ -2083,7 +1916,7 @@
 								enable_scale = false
 								source_filename = "models/player_voxel/animations/ranged_2H_run.fbx"
 								start_frame = -1
-								end_frame = 0
+								end_frame = -1
 								framerate = -1.0
 								take = 0
 								reverse = false
@@ -2181,7 +2014,7 @@
 										enable_scale = false
 										source_filename = "models/player_voxel/animations/ranged_2H_reload_shotgun.fbx"
 										start_frame = 50
-										end_frame = 134
+										end_frame = -1
 										framerate = -1.0
 										take = 0
 										reverse = false
@@ -2217,6 +2050,173 @@
 										reverse = false
 									},
 								]
+							},
+						]
+					},
+					{
+						_class = "Folder"
+						name = "Ranged_1H"
+						children = 
+						[
+							{
+								_class = "AnimFile"
+								name = "ranged_1H"
+								children = 
+								[
+									{
+										_class = "AnimSubtract"
+										anim_name = "idle"
+										frame = 0
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/ranged_1H.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								take = 0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "ranged_1H_reload_revolver"
+								children = 
+								[
+									{
+										_class = "AnimSubtract"
+										anim_name = "idle"
+										frame = 0
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/ranged_1H_reload_revolver.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								take = 0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "ranged_1H_run"
+								children = 
+								[
+									{
+										_class = "AnimSubtract"
+										anim_name = "idle"
+										frame = 0
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/ranged_1H_run.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								take = 0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "ranged_1H_matrix"
+								children = 
+								[
+									{
+										_class = "AnimSubtract"
+										anim_name = "ranged_1H_matrix"
+										frame = 4
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/ranged_1H.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								take = 0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "ranged_1H_shoot"
+								children = 
+								[
+									{
+										_class = "AnimSmoothLoop"
+										frames_from_start = 0
+										frames_from_end = 2
+									},
+									{
+										_class = "AnimSubtractModelSpace"
+										anim_name = "ranged_1H_shoot"
+										frame = 0
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/ranged_2H_shoot_shotgun.fbx"
+								start_frame = -1
+								end_frame = 22
+								framerate = -1.0
+								take = 0
+								reverse = false
 							},
 						]
 					},
