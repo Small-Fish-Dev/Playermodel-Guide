@@ -2791,6 +2791,58 @@
 						master_morph_weight = -1.0
 						morph_weights = [  ]
 					},
+					{
+						_class = "WeightList"
+						name = "arms"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "IK_hand_L"
+								weight = 0.75
+							},
+							{
+								bone = "IK_hand_R"
+								weight = 0.75
+							},
+							{
+								bone = "arm_upper_L"
+								weight = 0.75
+							},
+							{
+								bone = "arm_upper_R"
+								weight = 0.747899
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "arms_strong"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "IK_hand_L"
+								weight = 1.0
+							},
+							{
+								bone = "IK_hand_R"
+								weight = 1.0
+							},
+							{
+								bone = "arm_upper_L"
+								weight = 1.0
+							},
+							{
+								bone = "arm_upper_R"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
 				]
 			},
 			{
