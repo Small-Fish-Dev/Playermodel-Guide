@@ -3089,66 +3089,13 @@
 							{
 								key = 
 								{
-									m_id = 105107848
-								}
-								value = 
-								{
-									_class = "CBoneMaskAnimNode"
-									m_sName = "Unnamed"
-									m_vecPosition = [ 48.0, 96.0 ]
-									m_nNodeID = 
-									{
-										m_id = 105107848
-									}
-									m_sNote = ""
-									m_weightListName = "arms_strong"
-									m_inputConnection1 = 
-									{
-										m_nodeID = 
-										{
-											m_id = 1704911190
-										}
-										m_outputID = 
-										{
-											m_id = 4294967295
-										}
-									}
-									m_inputConnection2 = 
-									{
-										m_nodeID = 
-										{
-											m_id = 233942200
-										}
-										m_outputID = 
-										{
-											m_id = 4294967295
-										}
-									}
-									m_blendSpace = "BlendSpace_Parent"
-									m_bUseBlendScale = false
-									m_blendValueSource = "Parameter"
-									m_blendParameter = 
-									{
-										m_id = 4294967295
-									}
-									m_timingBehavior = "UseChild2"
-									m_flTimingBlend = 0.5
-									m_flRootMotionBlend = 0.0
-									m_footMotionTiming = "Child1"
-									m_bResetChild1 = true
-									m_bResetChild2 = true
-								}
-							},
-							{
-								key = 
-								{
 									m_id = 233942200
 								}
 								value = 
 								{
 									_class = "CSingleFrameAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ -160.0, 48.0 ]
+									m_vecPosition = [ -96.0, 16.0 ]
 									m_nNodeID = 
 									{
 										m_id = 233942200
@@ -3168,7 +3115,7 @@
 								{
 									_class = "CSingleFrameAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ -128.0, 240.0 ]
+									m_vecPosition = [ -96.0, 96.0 ]
 									m_nNodeID = 
 									{
 										m_id = 433130476
@@ -3182,13 +3129,69 @@
 							{
 								key = 
 								{
+									m_id = 551846151
+								}
+								value = 
+								{
+									_class = "CLookAtAnimNode"
+									m_sName = "Head Lookat"
+									m_vecPosition = [ 688.0, 128.0 ]
+									m_nNodeID = 
+									{
+										m_id = 551846151
+									}
+									m_sNote = ""
+									m_inputConnection = 
+									{
+										m_nodeID = 
+										{
+											m_id = 1561901295
+										}
+										m_outputID = 
+										{
+											m_id = 4294967295
+										}
+									}
+									m_target = "VectorParameter"
+									m_param = 
+									{
+										m_id = 1090422325
+									}
+									m_weightParam = 
+									{
+										m_id = 4294967295
+									}
+									m_lookatChainName = "head"
+									m_attachmentName = "eyes"
+									m_flYawLimit = 90.0
+									m_flPitchLimit = 45.0
+									m_bResetBase = true
+									m_bLockWhenWaning = true
+									m_bUseHysteresis = false
+									m_flHysteresisInnerAngle = 1.0
+									m_flHysteresisOuterAngle = 20.0
+									m_damping = 
+									{
+										_class = "CAnimInputDamping"
+										m_speedFunction = "NoDamping"
+										m_fSpeedScale = 1.0
+										m_fMinSpeed = 10.0
+										m_fMaxTension = 1000.0
+										m_fTension = 200.0
+										m_fDamping = 10.0
+									}
+								}
+							},
+							{
+								key = 
+								{
 									m_id = 617650055
 								}
 								value = 
 								{
 									_class = "CGroupOutputAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 1120.0, 128.0 ]
+									m_vecPosition = [ 1488.0, 80.0 ]
 									m_nNodeID = 
 									{
 										m_id = 617650055
@@ -3226,7 +3229,7 @@
 								{
 									_class = "CBlendAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 928.0, 128.0 ]
+									m_vecPosition = [ 1296.0, 80.0 ]
 									m_nNodeID = 
 									{
 										m_id = 734345165
@@ -3239,7 +3242,7 @@
 											{
 												m_nodeID = 
 												{
-													m_id = 1633605194
+													m_id = 1314080527
 												}
 												m_outputID = 
 												{
@@ -3296,7 +3299,7 @@
 								{
 									_class = "CBoneMaskAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 48.0, 0.0 ]
+									m_vecPosition = [ 112.0, 0.0 ]
 									m_nNodeID = 
 									{
 										m_id = 813768086
@@ -3307,11 +3310,11 @@
 									{
 										m_nodeID = 
 										{
-											m_id = 2052328989
+											m_id = 1622290594
 										}
 										m_outputID = 
 										{
-											m_id = 4294967295
+											m_id = 1697058429
 										}
 									}
 									m_inputConnection2 = 
@@ -3343,13 +3346,69 @@
 							{
 								key = 
 								{
+									m_id = 1064455888
+								}
+								value = 
+								{
+									_class = "CLookAtAnimNode"
+									m_sName = "Weak Look At"
+									m_vecPosition = [ 512.0, 80.0 ]
+									m_nNodeID = 
+									{
+										m_id = 1064455888
+									}
+									m_sNote = ""
+									m_inputConnection = 
+									{
+										m_nodeID = 
+										{
+											m_id = 1633605194
+										}
+										m_outputID = 
+										{
+											m_id = 4294967295
+										}
+									}
+									m_target = "VectorParameter"
+									m_param = 
+									{
+										m_id = 1090422325
+									}
+									m_weightParam = 
+									{
+										m_id = 4294967295
+									}
+									m_lookatChainName = "lookat_weak"
+									m_attachmentName = "eyes"
+									m_flYawLimit = 90.0
+									m_flPitchLimit = 90.0
+									m_bResetBase = true
+									m_bLockWhenWaning = true
+									m_bUseHysteresis = false
+									m_flHysteresisInnerAngle = 1.0
+									m_flHysteresisOuterAngle = 20.0
+									m_damping = 
+									{
+										_class = "CAnimInputDamping"
+										m_speedFunction = "BouncySpring"
+										m_fSpeedScale = 1.0
+										m_fMinSpeed = 10.0
+										m_fMaxTension = 1000.0
+										m_fTension = 200.0
+										m_fDamping = 10.0
+									}
+								}
+							},
+							{
+								key = 
+								{
 									m_id = 1193764499
 								}
 								value = 
 								{
 									_class = "CBoneMaskAnimNode"
 									m_sName = "Leg Stance Mask"
-									m_vecPosition = [ 720.0, -64.0 ]
+									m_vecPosition = [ 1088.0, -64.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1193764499
@@ -3360,7 +3419,7 @@
 									{
 										m_nodeID = 
 										{
-											m_id = 1633605194
+											m_id = 1314080527
 										}
 										m_outputID = 
 										{
@@ -3402,7 +3461,7 @@
 								{
 									_class = "CStateMachineAnimNode"
 									m_sName = "Attack Switch"
-									m_vecPosition = [ 240.0, 0.0 ]
+									m_vecPosition = [ 880.0, 80.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1314080527
@@ -3439,8 +3498,8 @@
 													m_bBlendCycle = false
 													m_blendCurve = 
 													{
-														m_vControlPoint1 = [ 0.5, 0.0 ]
-														m_vControlPoint2 = [ 0.5, 1.0 ]
+														m_vControlPoint1 = [ 0.0, 0.0 ]
+														m_vControlPoint2 = [ 0.25, 1.0 ]
 													}
 													m_bForceFootPlant = false
 													m_bDisabled = false
@@ -3456,7 +3515,7 @@
 											{
 												m_nodeID = 
 												{
-													m_id = 813768086
+													m_id = 1064455888
 												}
 												m_outputID = 
 												{
@@ -3503,8 +3562,8 @@
 													m_bBlendCycle = false
 													m_blendCurve = 
 													{
-														m_vControlPoint1 = [ 0.5, 0.0 ]
-														m_vControlPoint2 = [ 0.5, 1.0 ]
+														m_vControlPoint1 = [ 0.75, 0.0 ]
+														m_vControlPoint2 = [ 1.0, 1.0 ]
 													}
 													m_bForceFootPlant = false
 													m_bDisabled = false
@@ -3520,7 +3579,7 @@
 											{
 												m_nodeID = 
 												{
-													m_id = 105107848
+													m_id = 551846151
 												}
 												m_outputID = 
 												{
@@ -3546,13 +3605,69 @@
 							{
 								key = 
 								{
+									m_id = 1561901295
+								}
+								value = 
+								{
+									_class = "CLookAtAnimNode"
+									m_sName = "Unnamed"
+									m_vecPosition = [ 512.0, 128.0 ]
+									m_nNodeID = 
+									{
+										m_id = 1561901295
+									}
+									m_sNote = ""
+									m_inputConnection = 
+									{
+										m_nodeID = 
+										{
+											m_id = 1633605194
+										}
+										m_outputID = 
+										{
+											m_id = 4294967295
+										}
+									}
+									m_target = "VectorParameter"
+									m_param = 
+									{
+										m_id = 1090422325
+									}
+									m_weightParam = 
+									{
+										m_id = 4294967295
+									}
+									m_lookatChainName = "lookat"
+									m_attachmentName = "eyes"
+									m_flYawLimit = 90.0
+									m_flPitchLimit = 45.0
+									m_bResetBase = true
+									m_bLockWhenWaning = true
+									m_bUseHysteresis = false
+									m_flHysteresisInnerAngle = 1.0
+									m_flHysteresisOuterAngle = 20.0
+									m_damping = 
+									{
+										_class = "CAnimInputDamping"
+										m_speedFunction = "NoDamping"
+										m_fSpeedScale = 1.0
+										m_fMinSpeed = 10.0
+										m_fMaxTension = 1000.0
+										m_fTension = 200.0
+										m_fDamping = 10.0
+									}
+								}
+							},
+							{
+								key = 
+								{
 									m_id = 1622290594
 								}
 								value = 
 								{
 									_class = "CGroupInputAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ -384.0, -48.0 ]
+									m_vecPosition = [ -96.0, -48.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1622290594
@@ -3590,7 +3705,7 @@
 								{
 									_class = "CAddAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 528.0, 224.0 ]
+									m_vecPosition = [ 320.0, 80.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1633605194
@@ -3600,7 +3715,7 @@
 									{
 										m_nodeID = 
 										{
-											m_id = 1314080527
+											m_id = 813768086
 										}
 										m_outputID = 
 										{
@@ -3636,7 +3751,7 @@
 								{
 									_class = "CStateMachineAnimNode"
 									m_sName = "Attack Machine"
-									m_vecPosition = [ 96.0, 240.0 ]
+									m_vecPosition = [ 112.0, 96.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1690182240
@@ -3666,7 +3781,7 @@
 															}
 														},
 													]
-													m_blendDuration = 0.1
+													m_blendDuration = 0.0
 													m_destState = 
 													{
 														m_id = 1317577776
@@ -3723,11 +3838,11 @@
 														{
 															_class = "CFinishedCondition"
 															m_comparisonOp = 0
-															m_option = "FinishedConditionOption_OnAlmostFinished"
+															m_option = "FinishedConditionOption_OnFinished"
 															m_bIsFinished = true
 														},
 													]
-													m_blendDuration = 0.2
+													m_blendDuration = 0.0
 													m_destState = 
 													{
 														m_id = 1828395077
@@ -3786,125 +3901,13 @@
 							{
 								key = 
 								{
-									m_id = 1704911190
-								}
-								value = 
-								{
-									_class = "CLookAtAnimNode"
-									m_sName = "Unnamed"
-									m_vecPosition = [ -160.0, 96.0 ]
-									m_nNodeID = 
-									{
-										m_id = 1704911190
-									}
-									m_sNote = ""
-									m_inputConnection = 
-									{
-										m_nodeID = 
-										{
-											m_id = 1622290594
-										}
-										m_outputID = 
-										{
-											m_id = 1697058429
-										}
-									}
-									m_target = "VectorParameter"
-									m_param = 
-									{
-										m_id = 1090422325
-									}
-									m_weightParam = 
-									{
-										m_id = 4294967295
-									}
-									m_lookatChainName = "lookat"
-									m_attachmentName = "eyes"
-									m_flYawLimit = 90.0
-									m_flPitchLimit = 90.0
-									m_bResetBase = true
-									m_bLockWhenWaning = true
-									m_bUseHysteresis = false
-									m_flHysteresisInnerAngle = 1.0
-									m_flHysteresisOuterAngle = 20.0
-									m_damping = 
-									{
-										_class = "CAnimInputDamping"
-										m_speedFunction = "BouncySpring"
-										m_fSpeedScale = 1.0
-										m_fMinSpeed = 10.0
-										m_fMaxTension = 1000.0
-										m_fTension = 200.0
-										m_fDamping = 10.0
-									}
-								}
-							},
-							{
-								key = 
-								{
-									m_id = 2052328989
-								}
-								value = 
-								{
-									_class = "CLookAtAnimNode"
-									m_sName = "Weak Look At"
-									m_vecPosition = [ -144.0, 0.0 ]
-									m_nNodeID = 
-									{
-										m_id = 2052328989
-									}
-									m_sNote = ""
-									m_inputConnection = 
-									{
-										m_nodeID = 
-										{
-											m_id = 1622290594
-										}
-										m_outputID = 
-										{
-											m_id = 1697058429
-										}
-									}
-									m_target = "VectorParameter"
-									m_param = 
-									{
-										m_id = 1090422325
-									}
-									m_weightParam = 
-									{
-										m_id = 4294967295
-									}
-									m_lookatChainName = "lookat_weak"
-									m_attachmentName = "eyes"
-									m_flYawLimit = 90.0
-									m_flPitchLimit = 90.0
-									m_bResetBase = true
-									m_bLockWhenWaning = true
-									m_bUseHysteresis = false
-									m_flHysteresisInnerAngle = 1.0
-									m_flHysteresisOuterAngle = 20.0
-									m_damping = 
-									{
-										_class = "CAnimInputDamping"
-										m_speedFunction = "BouncySpring"
-										m_fSpeedScale = 1.0
-										m_fMinSpeed = 10.0
-										m_fMaxTension = 1000.0
-										m_fTension = 200.0
-										m_fDamping = 10.0
-									}
-								}
-							},
-							{
-								key = 
-								{
 									m_id = 2075309123
 								}
 								value = 
 								{
 									_class = "CSequenceAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ -128.0, 288.0 ]
+									m_vecPosition = [ -96.0, 144.0 ]
 									m_nNodeID = 
 									{
 										m_id = 2075309123
