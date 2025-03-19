@@ -2251,7 +2251,7 @@
 								enable_scale = false
 								source_filename = "models/player_voxel/animations/melee_1H_block.fbx"
 								start_frame = -1
-								end_frame = -1
+								end_frame = 14
 								framerate = -1.0
 								take = 0
 								reverse = false
@@ -2375,37 +2375,6 @@
 								enable_scale = false
 								source_filename = "models/player_voxel/animations/melee_1H_left_hit.fbx"
 								start_frame = 3
-								end_frame = -1
-								framerate = -1.0
-								take = 0
-								reverse = false
-							},
-							{
-								_class = "AnimFile"
-								name = "melee_1H_shield"
-								children = 
-								[
-									{
-										_class = "AnimSubtract"
-										anim_name = "idle"
-										frame = 0
-									},
-								]
-								activity_name = ""
-								activity_weight = 1
-								weight_list_name = ""
-								fade_in_time = 0.2
-								fade_out_time = 0.2
-								looping = false
-								delta = false
-								worldSpace = false
-								hidden = false
-								anim_markup_ordered = false
-								disable_compression = false
-								disable_interpolation = false
-								enable_scale = false
-								source_filename = "models/player_voxel/animations/melee_1H_shield.fbx"
-								start_frame = -1
 								end_frame = -1
 								framerate = -1.0
 								take = 0
@@ -2941,6 +2910,298 @@
 										framerate = -1.0
 										take = 0
 										reverse = false
+									},
+								]
+							},
+						]
+					},
+					{
+						_class = "Folder"
+						name = "hurt"
+						children = 
+						[
+							{
+								_class = "AnimFile"
+								name = "hurtN"
+								children = 
+								[
+									{
+										_class = "AnimSubtractModelSpace"
+										anim_name = "hurtN"
+										frame = 0
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/hurtN.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								take = 0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "hurtNE"
+								children = 
+								[
+									{
+										_class = "AnimSubtractModelSpace"
+										anim_name = "hurtNE"
+										frame = 0
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/hurtNE.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								take = 0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "hurtNW"
+								children = 
+								[
+									{
+										_class = "AnimSubtractModelSpace"
+										anim_name = "hurtNW"
+										frame = 0
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/hurtNW.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								take = 0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "hurtS"
+								children = 
+								[
+									{
+										_class = "AnimSubtractModelSpace"
+										anim_name = "hurtS"
+										frame = 0
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/hurtS.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								take = 0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "hurtSE"
+								children = 
+								[
+									{
+										_class = "AnimSubtractModelSpace"
+										anim_name = "hurtSE"
+										frame = 0
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/hurtSE.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								take = 0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "hurtSW"
+								children = 
+								[
+									{
+										_class = "AnimSubtractModelSpace"
+										anim_name = "hurtSW"
+										frame = 0
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/hurtSW.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								take = 0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "hurtW"
+								children = 
+								[
+									{
+										_class = "AnimSubtractModelSpace"
+										anim_name = "hurtW"
+										frame = 0
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/hurtW.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								take = 0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "hurtE"
+								children = 
+								[
+									{
+										_class = "AnimSubtractModelSpace"
+										anim_name = "hurtE"
+										frame = 0
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/hurtE.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								take = 0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "hurt_delta"
+								children = 
+								[
+									{
+										_class = "AnimLinearDelta"
+										spline = false
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/idle.fbx"
+								start_frame = -1
+								end_frame = 0
+								framerate = -1.0
+								take = 0
+								reverse = false
+								anim_hold_list = 
+								[
+									{
+										frame = 0
+										frame_count = 28
 									},
 								]
 							},
