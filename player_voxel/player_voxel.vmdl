@@ -3175,7 +3175,7 @@
 									},
 									{
 										_class = "AnimFile"
-										name = "melee_2H_followup"
+										name = "melee_2H_combo_followup"
 										children = 
 										[
 											{
@@ -3299,7 +3299,7 @@
 									},
 									{
 										_class = "AnimFile"
-										name = "melee_2H_left_followup"
+										name = "melee_2H_combo_left_followup"
 										children = 
 										[
 											{
@@ -3516,7 +3516,7 @@
 									},
 									{
 										_class = "AnimFile"
-										name = "melee_2H_heavy_followup"
+										name = "melee_2H_combo_heavy_followup"
 										children = 
 										[
 											{
@@ -3547,7 +3547,7 @@
 									},
 									{
 										_class = "AnimFile"
-										name = "melee_2H_left_heavy_followup"
+										name = "melee_2H_combo_left_heavy_followup"
 										children = 
 										[
 											{

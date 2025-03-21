@@ -3681,7 +3681,7 @@
 											_class = "CBlend2DItem"
 											m_tagSpans = [  ]
 											m_sequenceName = "melee_1H_heavy_swing"
-											m_blendValue = [ 1.0, 1.0 ]
+											m_blendValue = [ 0.8, 0.8 ]
 										},
 									]
 									m_blendSourceX = "Parameter"
@@ -3757,7 +3757,7 @@
 											_class = "CBlend2DItem"
 											m_tagSpans = [  ]
 											m_sequenceName = "melee_1H_heavy_settle"
-											m_blendValue = [ 1.0, 1.0 ]
+											m_blendValue = [ 0.8, 0.8 ]
 										},
 									]
 									m_blendSourceX = "Parameter"
@@ -4525,7 +4525,7 @@
 											_class = "CBlend2DItem"
 											m_tagSpans = [  ]
 											m_sequenceName = "melee_1H_left_heavy_swing"
-											m_blendValue = [ 1.0, 1.0 ]
+											m_blendValue = [ 0.8, 0.8 ]
 										},
 									]
 									m_blendSourceX = "Parameter"
@@ -4614,7 +4614,7 @@
 											_class = "CBlend2DItem"
 											m_tagSpans = [  ]
 											m_sequenceName = "melee_1H_left_heavy_windup"
-											m_blendValue = [ 1.0, 1.0 ]
+											m_blendValue = [ 0.8, 0.8 ]
 										},
 									]
 									m_blendSourceX = "Parameter"
@@ -4786,7 +4786,7 @@
 											_class = "CBlend2DItem"
 											m_tagSpans = [  ]
 											m_sequenceName = "melee_1H_combo_left_followup_heavy"
-											m_blendValue = [ 1.0, 1.0 ]
+											m_blendValue = [ 0.8, 0.8 ]
 										},
 									]
 									m_blendSourceX = "Parameter"
@@ -4895,7 +4895,7 @@
 											_class = "CBlend2DItem"
 											m_tagSpans = [  ]
 											m_sequenceName = "melee_1H_heavy_windup"
-											m_blendValue = [ 1.0, 1.0 ]
+											m_blendValue = [ 0.8, 0.8 ]
 										},
 									]
 									m_blendSourceX = "Parameter"
@@ -5315,7 +5315,7 @@
 											_class = "CBlend2DItem"
 											m_tagSpans = [  ]
 											m_sequenceName = "melee_1H_left_heavy_settle"
-											m_blendValue = [ 1.0, 1.0 ]
+											m_blendValue = [ 0.8, 0.8 ]
 										},
 									]
 									m_blendSourceX = "Parameter"
@@ -5371,7 +5371,7 @@
 											_class = "CBlend2DItem"
 											m_tagSpans = [  ]
 											m_sequenceName = "melee_1H_combo_heavy_followup"
-											m_blendValue = [ 1.0, 1.0 ]
+											m_blendValue = [ 0.8, 0.8 ]
 										},
 									]
 									m_blendSourceX = "Parameter"
@@ -6901,7 +6901,7 @@
 													{
 														m_id = 1661096171
 													}
-													m_bReset = true
+													m_bReset = false
 													m_resetCycleOption = "SameCycleAsSource"
 													m_flFixedCycleValue = 0.0
 													m_bBlendCycle = false
@@ -7905,7 +7905,7 @@
 							m_id = 4294967295
 						},
 						{
-							m_id = 4294967295
+							m_id = 234978032
 						},
 					]
 					m_selectionSource = "SelectionSource_Enum"
@@ -10025,13 +10025,13 @@
 										{
 											_class = "CBlend2DItem"
 											m_tagSpans = [  ]
-											m_sequenceName = "melee_1H_swing"
-											m_blendValue = [ 0.1, 0.1 ]
+											m_sequenceName = "melee_2H_swing"
+											m_blendValue = [ 0.3, 0.3 ]
 										},
 										{
 											_class = "CBlend2DItem"
 											m_tagSpans = [  ]
-											m_sequenceName = "melee_1H_heavy_swing"
+											m_sequenceName = "melee_2H_heavy_swing"
 											m_blendValue = [ 1.0, 1.0 ]
 										},
 									]
@@ -10101,13 +10101,13 @@
 										{
 											_class = "CBlend2DItem"
 											m_tagSpans = [  ]
-											m_sequenceName = "melee_1H_settle"
-											m_blendValue = [ 0.1, 0.1 ]
+											m_sequenceName = "melee_2H_settle"
+											m_blendValue = [ 0.3, 0.3 ]
 										},
 										{
 											_class = "CBlend2DItem"
 											m_tagSpans = [  ]
-											m_sequenceName = "melee_1H_heavy_settle"
+											m_sequenceName = "melee_2H_heavy_settle"
 											m_blendValue = [ 1.0, 1.0 ]
 										},
 									]
@@ -10729,7 +10729,7 @@
 										m_id = 433130476
 									}
 									m_sNote = ""
-									m_sequenceName = "melee_1H_windup"
+									m_sequenceName = "melee_2H_windup"
 									m_nFrameIndex = 0
 									m_tagSpans = [  ]
 								}
@@ -10869,13 +10869,13 @@
 										{
 											_class = "CBlend2DItem"
 											m_tagSpans = [  ]
-											m_sequenceName = "melee_1H_left_swing"
-											m_blendValue = [ 0.1, 0.1 ]
+											m_sequenceName = "melee_2H_left_swing"
+											m_blendValue = [ 0.3, 0.3 ]
 										},
 										{
 											_class = "CBlend2DItem"
 											m_tagSpans = [  ]
-											m_sequenceName = "melee_1H_left_heavy_swing"
+											m_sequenceName = "melee_2H_left_heavy_swing"
 											m_blendValue = [ 1.0, 1.0 ]
 										},
 									]
@@ -10958,13 +10958,13 @@
 										{
 											_class = "CBlend2DItem"
 											m_tagSpans = [  ]
-											m_sequenceName = "melee_1H_left_windup"
-											m_blendValue = [ 0.1, 0.1 ]
+											m_sequenceName = "melee_2H_left_windup"
+											m_blendValue = [ 0.3, 0.3 ]
 										},
 										{
 											_class = "CBlend2DItem"
 											m_tagSpans = [  ]
-											m_sequenceName = "melee_1H_left_heavy_windup"
+											m_sequenceName = "melee_2H_left_heavy_windup"
 											m_blendValue = [ 1.0, 1.0 ]
 										},
 									]
@@ -11130,13 +11130,13 @@
 										{
 											_class = "CBlend2DItem"
 											m_tagSpans = [  ]
-											m_sequenceName = "melee_1H_combo_left_followp"
-											m_blendValue = [ 0.1, 0.1 ]
+											m_sequenceName = "melee_2H_combo_left_followup"
+											m_blendValue = [ 0.3, 0.3 ]
 										},
 										{
 											_class = "CBlend2DItem"
 											m_tagSpans = [  ]
-											m_sequenceName = "melee_1H_combo_left_followup_heavy"
+											m_sequenceName = "melee_2H_combo_left_heavy_followup"
 											m_blendValue = [ 1.0, 1.0 ]
 										},
 									]
@@ -11239,13 +11239,13 @@
 										{
 											_class = "CBlend2DItem"
 											m_tagSpans = [  ]
-											m_sequenceName = "melee_1H_windup"
-											m_blendValue = [ 0.1, 0.1 ]
+											m_sequenceName = "melee_2H_windup"
+											m_blendValue = [ 0.3, 0.3 ]
 										},
 										{
 											_class = "CBlend2DItem"
 											m_tagSpans = [  ]
-											m_sequenceName = "melee_1H_heavy_windup"
+											m_sequenceName = "melee_2H_heavy_windup"
 											m_blendValue = [ 1.0, 1.0 ]
 										},
 									]
@@ -11659,13 +11659,13 @@
 										{
 											_class = "CBlend2DItem"
 											m_tagSpans = [  ]
-											m_sequenceName = "melee_1H_left_settle"
-											m_blendValue = [ 0.1, 0.1 ]
+											m_sequenceName = "melee_2H_left_settle"
+											m_blendValue = [ 0.3, 0.3 ]
 										},
 										{
 											_class = "CBlend2DItem"
 											m_tagSpans = [  ]
-											m_sequenceName = "melee_1H_left_heavy_settle"
+											m_sequenceName = "melee_2H_left_heavy_settle"
 											m_blendValue = [ 1.0, 1.0 ]
 										},
 									]
@@ -11715,13 +11715,13 @@
 										{
 											_class = "CBlend2DItem"
 											m_tagSpans = [  ]
-											m_sequenceName = "melee_1H_combo_followup"
-											m_blendValue = [ 0.1, 0.1 ]
+											m_sequenceName = "melee_2H_combo_followup"
+											m_blendValue = [ 0.3, 0.3 ]
 										},
 										{
 											_class = "CBlend2DItem"
 											m_tagSpans = [  ]
-											m_sequenceName = "melee_1H_combo_heavy_followup"
+											m_sequenceName = "melee_2H_combo_heavy_followup"
 											m_blendValue = [ 1.0, 1.0 ]
 										},
 									]
@@ -11970,7 +11970,7 @@
 									}
 									m_sNote = ""
 									m_tagSpans = [  ]
-									m_sequenceName = "melee_1H_hit"
+									m_sequenceName = "melee_2H_hit"
 									m_playbackSpeed = 1.0
 									m_bLoop = false
 								}
@@ -12388,7 +12388,7 @@
 									}
 									m_sNote = ""
 									m_tagSpans = [  ]
-									m_sequenceName = "melee_1H_block"
+									m_sequenceName = "melee_2H_block"
 									m_playbackSpeed = 1.0
 									m_bLoop = false
 								}
@@ -13252,7 +13252,7 @@
 													{
 														m_id = 1661096171
 													}
-													m_bReset = true
+													m_bReset = false
 													m_resetCycleOption = "SameCycleAsSource"
 													m_flFixedCycleValue = 0.0
 													m_bBlendCycle = false
@@ -13314,7 +13314,7 @@
 									}
 									m_sNote = ""
 									m_tagSpans = [  ]
-									m_sequenceName = "melee_1H_hit_recoil"
+									m_sequenceName = "melee_2H_hit_recoil"
 									m_playbackSpeed = 1.0
 									m_bLoop = false
 								}
@@ -13335,7 +13335,7 @@
 									}
 									m_sNote = ""
 									m_tagSpans = [  ]
-									m_sequenceName = "melee_1H_left_hit_recoil"
+									m_sequenceName = "melee_2H_left_hit_recoil"
 									m_playbackSpeed = 1.0
 									m_bLoop = false
 								}
@@ -13356,7 +13356,7 @@
 									}
 									m_sNote = ""
 									m_tagSpans = [  ]
-									m_sequenceName = "melee_1H_left_hit"
+									m_sequenceName = "melee_2H_left_hit"
 									m_playbackSpeed = 1.0
 									m_bLoop = false
 								}
@@ -14868,6 +14868,10 @@
 		},
 		{
 			m_name = "models/weapons/hammer/hammer.vmdl"
+			m_bEnabled = false
+		},
+		{
+			m_name = "models/weapons/giant_hammer/giant_hammer.vmdl"
 			m_bEnabled = true
 		},
 	]
