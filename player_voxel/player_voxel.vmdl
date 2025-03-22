@@ -3872,6 +3872,151 @@
 							},
 						]
 					},
+					{
+						_class = "Folder"
+						name = "jump"
+						children = 
+						[
+							{
+								_class = "AnimFile"
+								name = "jump"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = false
+										extract_ty = false
+										extract_tz = true
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Specified"
+										motion_samples = [ 2, 6 ]
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/jump.fbx"
+								start_frame = -1
+								end_frame = 7
+								framerate = -1.0
+								take = 0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "jump_fall"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/jump_fall.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								take = 0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "jump_fall_arms"
+								children = 
+								[
+									{
+										_class = "AnimSubtract"
+										anim_name = "jump_fall_arms"
+										frame = 0
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/jump_fall_arms.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								take = 0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "jump_land"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/jump_land.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								take = 0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "jump_land_light"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								disable_interpolation = false
+								enable_scale = false
+								source_filename = "models/player_voxel/animations/jump_land_light.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								take = 0
+								reverse = false
+							},
+						]
+					},
 				]
 				default_root_bone_name = ""
 			},
