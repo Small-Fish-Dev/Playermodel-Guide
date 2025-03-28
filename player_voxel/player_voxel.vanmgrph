@@ -63,7 +63,7 @@
 								{
 									_class = "CAddAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 1488.0, 80.0 ]
+									m_vecPosition = [ 1680.0, 80.0 ]
 									m_nNodeID = 
 									{
 										m_id = 22804283
@@ -109,7 +109,7 @@
 								{
 									_class = "CGroupOutputAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 1904.0, 16.0 ]
+									m_vecPosition = [ 2080.0, 32.0 ]
 									m_nNodeID = 
 									{
 										m_id = 98846743
@@ -199,7 +199,7 @@
 								{
 									_class = "CStateMachineAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 640.0, 0.0 ]
+									m_vecPosition = [ 832.0, 0.0 ]
 									m_nNodeID = 
 									{
 										m_id = 350436554
@@ -344,6 +344,52 @@
 									]
 									m_bBlockWaningTags = false
 									m_bLockStateWhenWaning = false
+								}
+							},
+							{
+								key = 
+								{
+									m_id = 354211782
+								}
+								value = 
+								{
+									_class = "CSubGraphAnimNode"
+									m_sName = "Unnamed"
+									m_vecPosition = [ 256.0, 32.0 ]
+									m_nNodeID = 
+									{
+										m_id = 354211782
+									}
+									m_sNote = ""
+									m_inputNodeID = 
+									{
+										m_id = 269482778
+									}
+									m_outputNodeID = 
+									{
+										m_id = 1201434993
+									}
+									m_subGraphFilename = "models\\player_voxel\\lean group.vsubgrph"
+									m_inputConnectionMap = 
+									[
+										{
+											key = 
+											{
+												m_id = 967484482
+											}
+											value = 
+											{
+												m_nodeID = 
+												{
+													m_id = 1532574803
+												}
+												m_outputID = 
+												{
+													m_id = 4294967295
+												}
+											}
+										},
+									]
 								}
 							},
 							{
@@ -716,7 +762,7 @@
 								{
 									_class = "CBlendAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 1312.0, 16.0 ]
+									m_vecPosition = [ 1504.0, 16.0 ]
 									m_nNodeID = 
 									{
 										m_id = 734345165
@@ -786,7 +832,7 @@
 								{
 									_class = "CStateMachineAnimNode"
 									m_sName = "Disable Lookats"
-									m_vecPosition = [ 832.0, 16.0 ]
+									m_vecPosition = [ 1024.0, 16.0 ]
 									m_nNodeID = 
 									{
 										m_id = 952111522
@@ -904,11 +950,11 @@
 											{
 												m_nodeID = 
 												{
-													m_id = 1532574803
+													m_id = 354211782
 												}
 												m_outputID = 
 												{
-													m_id = 4294967295
+													m_id = 1522844646
 												}
 											}
 											m_stateID = 
@@ -936,7 +982,7 @@
 								{
 									_class = "CSequenceAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 1280.0, 96.0 ]
+									m_vecPosition = [ 1472.0, 96.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1131231461
@@ -957,7 +1003,7 @@
 								{
 									_class = "CBoneMaskAnimNode"
 									m_sName = "Leg Stance Mask"
-									m_vecPosition = [ 1120.0, -80.0 ]
+									m_vecPosition = [ 1312.0, -80.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1193764499
@@ -1193,7 +1239,7 @@
 								{
 									_class = "CLookAtAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 464.0, 0.0 ]
+									m_vecPosition = [ 656.0, 0.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1704911190
@@ -1269,7 +1315,7 @@
 								{
 									_class = "CStateMachineAnimNode"
 									m_sName = "Shooting Machine"
-									m_vecPosition = [ 1664.0, 16.0 ]
+									m_vecPosition = [ 1856.0, 16.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1806268819
@@ -1420,7 +1466,7 @@
 								{
 									_class = "CLookAtAnimNode"
 									m_sName = "Weak Look At"
-									m_vecPosition = [ 464.0, 80.0 ]
+									m_vecPosition = [ 656.0, 80.0 ]
 									m_nNodeID = 
 									{
 										m_id = 2052328989
@@ -1430,11 +1476,11 @@
 									{
 										m_nodeID = 
 										{
-											m_id = 1532574803
+											m_id = 354211782
 										}
 										m_outputID = 
 										{
-											m_id = 4294967295
+											m_id = 1522844646
 										}
 									}
 									m_target = "VectorParameter"
@@ -1476,7 +1522,7 @@
 								{
 									_class = "CAimMatrixAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 272.0, 0.0 ]
+									m_vecPosition = [ 464.0, 0.0 ]
 									m_nNodeID = 
 									{
 										m_id = 2069989435
@@ -1486,11 +1532,11 @@
 									{
 										m_nodeID = 
 										{
-											m_id = 1532574803
+											m_id = 354211782
 										}
 										m_outputID = 
 										{
-											m_id = 4294967295
+											m_id = 1522844646
 										}
 									}
 									m_sequenceName = "ranged_2H_matrix"
@@ -1579,7 +1625,7 @@
 								{
 									_class = "CAddAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 1488.0, 80.0 ]
+									m_vecPosition = [ 1728.0, 80.0 ]
 									m_nNodeID = 
 									{
 										m_id = 22804283
@@ -1625,7 +1671,7 @@
 								{
 									_class = "CGroupOutputAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 1904.0, 16.0 ]
+									m_vecPosition = [ 2144.0, 16.0 ]
 									m_nNodeID = 
 									{
 										m_id = 98846743
@@ -1715,7 +1761,7 @@
 								{
 									_class = "CStateMachineAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 640.0, 0.0 ]
+									m_vecPosition = [ 880.0, 0.0 ]
 									m_nNodeID = 
 									{
 										m_id = 350436554
@@ -1860,6 +1906,52 @@
 									]
 									m_bBlockWaningTags = false
 									m_bLockStateWhenWaning = false
+								}
+							},
+							{
+								key = 
+								{
+									m_id = 354211782
+								}
+								value = 
+								{
+									_class = "CSubGraphAnimNode"
+									m_sName = "Unnamed"
+									m_vecPosition = [ 272.0, 32.0 ]
+									m_nNodeID = 
+									{
+										m_id = 354211782
+									}
+									m_sNote = ""
+									m_inputNodeID = 
+									{
+										m_id = 269482778
+									}
+									m_outputNodeID = 
+									{
+										m_id = 1201434993
+									}
+									m_subGraphFilename = "models\\player_voxel\\lean group.vsubgrph"
+									m_inputConnectionMap = 
+									[
+										{
+											key = 
+											{
+												m_id = 967484482
+											}
+											value = 
+											{
+												m_nodeID = 
+												{
+													m_id = 1532574803
+												}
+												m_outputID = 
+												{
+													m_id = 4294967295
+												}
+											}
+										},
+									]
 								}
 							},
 							{
@@ -2232,7 +2324,7 @@
 								{
 									_class = "CBlendAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 1312.0, 16.0 ]
+									m_vecPosition = [ 1552.0, 16.0 ]
 									m_nNodeID = 
 									{
 										m_id = 734345165
@@ -2302,7 +2394,7 @@
 								{
 									_class = "CStateMachineAnimNode"
 									m_sName = "Disable Lookats"
-									m_vecPosition = [ 832.0, 16.0 ]
+									m_vecPosition = [ 1072.0, 16.0 ]
 									m_nNodeID = 
 									{
 										m_id = 952111522
@@ -2420,11 +2512,11 @@
 											{
 												m_nodeID = 
 												{
-													m_id = 1532574803
+													m_id = 354211782
 												}
 												m_outputID = 
 												{
-													m_id = 4294967295
+													m_id = 1522844646
 												}
 											}
 											m_stateID = 
@@ -2452,7 +2544,7 @@
 								{
 									_class = "CSequenceAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 1280.0, 96.0 ]
+									m_vecPosition = [ 1520.0, 96.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1131231461
@@ -2473,7 +2565,7 @@
 								{
 									_class = "CBoneMaskAnimNode"
 									m_sName = "Leg Stance Mask"
-									m_vecPosition = [ 1120.0, -80.0 ]
+									m_vecPosition = [ 1360.0, -80.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1193764499
@@ -2709,7 +2801,7 @@
 								{
 									_class = "CLookAtAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 464.0, 0.0 ]
+									m_vecPosition = [ 704.0, 0.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1704911190
@@ -2785,7 +2877,7 @@
 								{
 									_class = "CStateMachineAnimNode"
 									m_sName = "Shooting Machine"
-									m_vecPosition = [ 1664.0, 16.0 ]
+									m_vecPosition = [ 1904.0, 16.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1806268819
@@ -2936,7 +3028,7 @@
 								{
 									_class = "CLookAtAnimNode"
 									m_sName = "Weak Look At"
-									m_vecPosition = [ 464.0, 80.0 ]
+									m_vecPosition = [ 704.0, 80.0 ]
 									m_nNodeID = 
 									{
 										m_id = 2052328989
@@ -2946,11 +3038,11 @@
 									{
 										m_nodeID = 
 										{
-											m_id = 1532574803
+											m_id = 354211782
 										}
 										m_outputID = 
 										{
-											m_id = 4294967295
+											m_id = 1522844646
 										}
 									}
 									m_target = "VectorParameter"
@@ -2992,7 +3084,7 @@
 								{
 									_class = "CAimMatrixAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 272.0, 0.0 ]
+									m_vecPosition = [ 512.0, 0.0 ]
 									m_nNodeID = 
 									{
 										m_id = 2069989435
@@ -3002,11 +3094,11 @@
 									{
 										m_nodeID = 
 										{
-											m_id = 1532574803
+											m_id = 354211782
 										}
 										m_outputID = 
 										{
-											m_id = 4294967295
+											m_id = 1522844646
 										}
 									}
 									m_sequenceName = "ranged_1H_matrix"
@@ -3555,6 +3647,52 @@
 			{
 				key = 
 				{
+					m_id = 354211782
+				}
+				value = 
+				{
+					_class = "CSubGraphAnimNode"
+					m_sName = "Unnamed"
+					m_vecPosition = [ 384.0, 64.0 ]
+					m_nNodeID = 
+					{
+						m_id = 354211782
+					}
+					m_sNote = ""
+					m_inputNodeID = 
+					{
+						m_id = 269482778
+					}
+					m_outputNodeID = 
+					{
+						m_id = 1201434993
+					}
+					m_subGraphFilename = "models\\player_voxel\\lean group.vsubgrph"
+					m_inputConnectionMap = 
+					[
+						{
+							key = 
+							{
+								m_id = 967484482
+							}
+							value = 
+							{
+								m_nodeID = 
+								{
+									m_id = 984375569
+								}
+								m_outputID = 
+								{
+									m_id = 605611824
+								}
+							}
+						},
+					]
+				}
+			},
+			{
+				key = 
+				{
 					m_id = 955886866
 				}
 				value = 
@@ -3784,6 +3922,52 @@
 										m_fTension = 100.0
 										m_fDamping = 5.0
 									}
+								}
+							},
+							{
+								key = 
+								{
+									m_id = 354211782
+								}
+								value = 
+								{
+									_class = "CSubGraphAnimNode"
+									m_sName = "Unnamed"
+									m_vecPosition = [ 512.0, 16.0 ]
+									m_nNodeID = 
+									{
+										m_id = 354211782
+									}
+									m_sNote = ""
+									m_inputNodeID = 
+									{
+										m_id = 269482778
+									}
+									m_outputNodeID = 
+									{
+										m_id = 1201434993
+									}
+									m_subGraphFilename = "models\\player_voxel\\lean group.vsubgrph"
+									m_inputConnectionMap = 
+									[
+										{
+											key = 
+											{
+												m_id = 967484482
+											}
+											value = 
+											{
+												m_nodeID = 
+												{
+													m_id = 1633605194
+												}
+												m_outputID = 
+												{
+													m_id = 4294967295
+												}
+											}
+										},
+									]
 								}
 							},
 							{
@@ -4413,7 +4597,7 @@
 								{
 									_class = "CLookAtAnimNode"
 									m_sName = "Head Lookat"
-									m_vecPosition = [ 688.0, 112.0 ]
+									m_vecPosition = [ 912.0, 112.0 ]
 									m_nNodeID = 
 									{
 										m_id = 551846151
@@ -4469,7 +4653,7 @@
 								{
 									_class = "CGroupOutputAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 1776.0, 0.0 ]
+									m_vecPosition = [ 2000.0, 0.0 ]
 									m_nNodeID = 
 									{
 										m_id = 617650055
@@ -4652,7 +4836,7 @@
 								{
 									_class = "CBlendAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 1584.0, 0.0 ]
+									m_vecPosition = [ 1808.0, 0.0 ]
 									m_nNodeID = 
 									{
 										m_id = 734345165
@@ -4933,7 +5117,7 @@
 								{
 									_class = "CStateMachineAnimNode"
 									m_sName = "Disable Lookats"
-									m_vecPosition = [ 1088.0, 0.0 ]
+									m_vecPosition = [ 1312.0, 0.0 ]
 									m_nNodeID = 
 									{
 										m_id = 952111522
@@ -5051,11 +5235,11 @@
 											{
 												m_nodeID = 
 												{
-													m_id = 1633605194
+													m_id = 354211782
 												}
 												m_outputID = 
 												{
-													m_id = 4294967295
+													m_id = 1522844646
 												}
 											}
 											m_stateID = 
@@ -5241,7 +5425,7 @@
 								{
 									_class = "CLookAtAnimNode"
 									m_sName = "Weak Look At"
-									m_vecPosition = [ 512.0, 64.0 ]
+									m_vecPosition = [ 736.0, 64.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1064455888
@@ -5251,11 +5435,11 @@
 									{
 										m_nodeID = 
 										{
-											m_id = 1633605194
+											m_id = 354211782
 										}
 										m_outputID = 
 										{
-											m_id = 4294967295
+											m_id = 1522844646
 										}
 									}
 									m_target = "VectorParameter"
@@ -5409,7 +5593,7 @@
 								{
 									_class = "CBoneMaskAnimNode"
 									m_sName = "Leg Stance Mask"
-									m_vecPosition = [ 1376.0, -64.0 ]
+									m_vecPosition = [ 1600.0, -64.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1193764499
@@ -5462,7 +5646,7 @@
 								{
 									_class = "CStateMachineAnimNode"
 									m_sName = "Lookat Switch"
-									m_vecPosition = [ 880.0, 64.0 ]
+									m_vecPosition = [ 1104.0, 64.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1314080527
@@ -5633,7 +5817,7 @@
 								{
 									_class = "CLookAtAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 512.0, 112.0 ]
+									m_vecPosition = [ 736.0, 112.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1561901295
@@ -5643,11 +5827,11 @@
 									{
 										m_nodeID = 
 										{
-											m_id = 1633605194
+											m_id = 354211782
 										}
 										m_outputID = 
 										{
-											m_id = 4294967295
+											m_id = 1522844646
 										}
 									}
 									m_target = "VectorParameter"
@@ -7427,7 +7611,7 @@
 				{
 					_class = "CGroupAnimNode"
 					m_sName = "Movement"
-					m_vecPosition = [ 352.0, 336.0 ]
+					m_vecPosition = [ 192.0, 336.0 ]
 					m_nNodeID = 
 					{
 						m_id = 984375569
@@ -8622,7 +8806,7 @@
 								{
 									_class = "CAddAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 1488.0, 80.0 ]
+									m_vecPosition = [ 1696.0, 80.0 ]
 									m_nNodeID = 
 									{
 										m_id = 22804283
@@ -8700,7 +8884,7 @@
 								{
 									_class = "CGroupOutputAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 1904.0, 16.0 ]
+									m_vecPosition = [ 2112.0, 16.0 ]
 									m_nNodeID = 
 									{
 										m_id = 98846743
@@ -8758,7 +8942,7 @@
 								{
 									_class = "CStateMachineAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 640.0, -16.0 ]
+									m_vecPosition = [ 848.0, -16.0 ]
 									m_nNodeID = 
 									{
 										m_id = 350436554
@@ -8903,6 +9087,52 @@
 									]
 									m_bBlockWaningTags = false
 									m_bLockStateWhenWaning = false
+								}
+							},
+							{
+								key = 
+								{
+									m_id = 354211782
+								}
+								value = 
+								{
+									_class = "CSubGraphAnimNode"
+									m_sName = "Unnamed"
+									m_vecPosition = [ 272.0, 32.0 ]
+									m_nNodeID = 
+									{
+										m_id = 354211782
+									}
+									m_sNote = ""
+									m_inputNodeID = 
+									{
+										m_id = 269482778
+									}
+									m_outputNodeID = 
+									{
+										m_id = 1201434993
+									}
+									m_subGraphFilename = "models\\player_voxel\\lean group.vsubgrph"
+									m_inputConnectionMap = 
+									[
+										{
+											key = 
+											{
+												m_id = 967484482
+											}
+											value = 
+											{
+												m_nodeID = 
+												{
+													m_id = 1532574803
+												}
+												m_outputID = 
+												{
+													m_id = 4294967295
+												}
+											}
+										},
+									]
 								}
 							},
 							{
@@ -9296,7 +9526,7 @@
 								{
 									_class = "CBlendAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 1312.0, 16.0 ]
+									m_vecPosition = [ 1520.0, 16.0 ]
 									m_nNodeID = 
 									{
 										m_id = 734345165
@@ -9366,7 +9596,7 @@
 								{
 									_class = "CStateMachineAnimNode"
 									m_sName = "Disable Lookats"
-									m_vecPosition = [ 832.0, 16.0 ]
+									m_vecPosition = [ 1040.0, 16.0 ]
 									m_nNodeID = 
 									{
 										m_id = 952111522
@@ -9516,7 +9746,7 @@
 								{
 									_class = "CSequenceAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 1232.0, 96.0 ]
+									m_vecPosition = [ 1440.0, 96.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1131231461
@@ -9537,7 +9767,7 @@
 								{
 									_class = "CBoneMaskAnimNode"
 									m_sName = "Leg Stance Mask"
-									m_vecPosition = [ 1120.0, -80.0 ]
+									m_vecPosition = [ 1328.0, -80.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1193764499
@@ -10130,7 +10360,7 @@
 								{
 									_class = "CLookAtAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 464.0, -16.0 ]
+									m_vecPosition = [ 672.0, -16.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1704911190
@@ -10206,7 +10436,7 @@
 								{
 									_class = "CStateMachineAnimNode"
 									m_sName = "Shooting Machine"
-									m_vecPosition = [ 1664.0, 16.0 ]
+									m_vecPosition = [ 1872.0, 16.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1806268819
@@ -10357,7 +10587,7 @@
 								{
 									_class = "CLookAtAnimNode"
 									m_sName = "Weak Look At"
-									m_vecPosition = [ 464.0, 32.0 ]
+									m_vecPosition = [ 672.0, 32.0 ]
 									m_nNodeID = 
 									{
 										m_id = 2052328989
@@ -10367,11 +10597,11 @@
 									{
 										m_nodeID = 
 										{
-											m_id = 1532574803
+											m_id = 354211782
 										}
 										m_outputID = 
 										{
-											m_id = 4294967295
+											m_id = 1522844646
 										}
 									}
 									m_target = "VectorParameter"
@@ -10413,7 +10643,7 @@
 								{
 									_class = "CAimMatrixAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 272.0, 0.0 ]
+									m_vecPosition = [ 480.0, 0.0 ]
 									m_nNodeID = 
 									{
 										m_id = 2069989435
@@ -10423,11 +10653,11 @@
 									{
 										m_nodeID = 
 										{
-											m_id = 1532574803
+											m_id = 354211782
 										}
 										m_outputID = 
 										{
-											m_id = 4294967295
+											m_id = 1522844646
 										}
 									}
 									m_sequenceName = "ranged_2H_matrix"
@@ -10712,6 +10942,52 @@
 										m_fTension = 100.0
 										m_fDamping = 5.0
 									}
+								}
+							},
+							{
+								key = 
+								{
+									m_id = 354211782
+								}
+								value = 
+								{
+									_class = "CSubGraphAnimNode"
+									m_sName = "Unnamed"
+									m_vecPosition = [ 496.0, 16.0 ]
+									m_nNodeID = 
+									{
+										m_id = 354211782
+									}
+									m_sNote = ""
+									m_inputNodeID = 
+									{
+										m_id = 269482778
+									}
+									m_outputNodeID = 
+									{
+										m_id = 1201434993
+									}
+									m_subGraphFilename = "models\\player_voxel\\lean group.vsubgrph"
+									m_inputConnectionMap = 
+									[
+										{
+											key = 
+											{
+												m_id = 967484482
+											}
+											value = 
+											{
+												m_nodeID = 
+												{
+													m_id = 1633605194
+												}
+												m_outputID = 
+												{
+													m_id = 4294967295
+												}
+											}
+										},
+									]
 								}
 							},
 							{
@@ -11341,7 +11617,7 @@
 								{
 									_class = "CLookAtAnimNode"
 									m_sName = "Head Lookat"
-									m_vecPosition = [ 688.0, 112.0 ]
+									m_vecPosition = [ 912.0, 112.0 ]
 									m_nNodeID = 
 									{
 										m_id = 551846151
@@ -11397,7 +11673,7 @@
 								{
 									_class = "CGroupOutputAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 1776.0, 0.0 ]
+									m_vecPosition = [ 2000.0, 0.0 ]
 									m_nNodeID = 
 									{
 										m_id = 617650055
@@ -11580,7 +11856,7 @@
 								{
 									_class = "CBlendAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 1584.0, 0.0 ]
+									m_vecPosition = [ 1808.0, 0.0 ]
 									m_nNodeID = 
 									{
 										m_id = 734345165
@@ -11861,7 +12137,7 @@
 								{
 									_class = "CStateMachineAnimNode"
 									m_sName = "Disable Lookats"
-									m_vecPosition = [ 1088.0, 0.0 ]
+									m_vecPosition = [ 1312.0, 0.0 ]
 									m_nNodeID = 
 									{
 										m_id = 952111522
@@ -11979,11 +12255,11 @@
 											{
 												m_nodeID = 
 												{
-													m_id = 1633605194
+													m_id = 354211782
 												}
 												m_outputID = 
 												{
-													m_id = 4294967295
+													m_id = 1522844646
 												}
 											}
 											m_stateID = 
@@ -12169,7 +12445,7 @@
 								{
 									_class = "CLookAtAnimNode"
 									m_sName = "Weak Look At"
-									m_vecPosition = [ 512.0, 64.0 ]
+									m_vecPosition = [ 736.0, 64.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1064455888
@@ -12179,11 +12455,11 @@
 									{
 										m_nodeID = 
 										{
-											m_id = 1633605194
+											m_id = 354211782
 										}
 										m_outputID = 
 										{
-											m_id = 4294967295
+											m_id = 1522844646
 										}
 									}
 									m_target = "VectorParameter"
@@ -12337,7 +12613,7 @@
 								{
 									_class = "CBoneMaskAnimNode"
 									m_sName = "Leg Stance Mask"
-									m_vecPosition = [ 1376.0, -64.0 ]
+									m_vecPosition = [ 1600.0, -64.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1193764499
@@ -12390,7 +12666,7 @@
 								{
 									_class = "CStateMachineAnimNode"
 									m_sName = "Lookat Switch"
-									m_vecPosition = [ 880.0, 64.0 ]
+									m_vecPosition = [ 1104.0, 64.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1314080527
@@ -12561,7 +12837,7 @@
 								{
 									_class = "CLookAtAnimNode"
 									m_sName = "Unnamed"
-									m_vecPosition = [ 512.0, 112.0 ]
+									m_vecPosition = [ 736.0, 112.0 ]
 									m_nNodeID = 
 									{
 										m_id = 1561901295
@@ -12571,11 +12847,11 @@
 									{
 										m_nodeID = 
 										{
-											m_id = 1633605194
+											m_id = 354211782
 										}
 										m_outputID = 
 										{
-											m_id = 4294967295
+											m_id = 1522844646
 										}
 									}
 									m_target = "VectorParameter"
@@ -14854,11 +15130,11 @@
 					{
 						m_nodeID = 
 						{
-							m_id = 984375569
+							m_id = 354211782
 						}
 						m_outputID = 
 						{
-							m_id = 605611824
+							m_id = 1522844646
 						}
 					}
 					m_target = "VectorParameter"
@@ -15360,6 +15636,20 @@
 				m_fMinValue = 0.0
 				m_fMaxValue = 5.0
 			},
+			{
+				_class = "CFloatAnimParameter"
+				m_name = "lean"
+				m_id = 
+				{
+					m_id = 1601109085
+				}
+				m_previewButton = "ANIMPARAM_BUTTON_NONE"
+				m_bUseMostRecentValue = false
+				m_bAutoReset = false
+				m_fDefaultValue = 0.0
+				m_fMinValue = -1.0
+				m_fMaxValue = 1.0
+			},
 		]
 	}
 	m_pTagManager = 
@@ -15471,7 +15761,7 @@
 	[
 		{
 			m_name = "models/weapons/smg/smg.vmdl"
-			m_bEnabled = false
+			m_bEnabled = true
 		},
 		{
 			m_name = "models/weapons/revolver/revolver.vmdl"
