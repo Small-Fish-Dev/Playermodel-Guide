@@ -9,16 +9,54 @@
 			{
 				key = 
 				{
-					m_id = 203140709
+					m_id = 160430103
+				}
+				value = 
+				{
+					_class = "CGroupInputAnimNode"
+					m_sName = "Unnamed"
+					m_vecPosition = [ -176.0, -48.0 ]
+					m_nNodeID = 
+					{
+						m_id = 160430103
+					}
+					m_sNote = ""
+					m_proxyItems = 
+					[
+						{
+							m_name = ""
+							m_outputID = 
+							{
+								m_id = 2080563261
+							}
+							m_inputConnection = 
+							{
+								m_nodeID = 
+								{
+									m_id = 4294967295
+								}
+								m_outputID = 
+								{
+									m_id = 4294967295
+								}
+							}
+						},
+					]
+				}
+			},
+			{
+				key = 
+				{
+					m_id = 1152862657
 				}
 				value = 
 				{
 					_class = "CBlendAnimNode"
 					m_sName = "Unnamed"
-					m_vecPosition = [ -144.0, 160.0 ]
+					m_vecPosition = [ 16.0, 48.0 ]
 					m_nNodeID = 
 					{
-						m_id = 203140709
+						m_id = 1152862657
 					}
 					m_sNote = ""
 					m_children = 
@@ -28,7 +66,7 @@
 							{
 								m_nodeID = 
 								{
-									m_id = 384988814
+									m_id = 1768823149
 								}
 								m_outputID = 
 								{
@@ -43,7 +81,7 @@
 							{
 								m_nodeID = 
 								{
-									m_id = 613977173
+									m_id = 1333262626
 								}
 								m_outputID = 
 								{
@@ -58,7 +96,7 @@
 							{
 								m_nodeID = 
 								{
-									m_id = 1366624004
+									m_id = 1568770558
 								}
 								m_outputID = 
 								{
@@ -72,7 +110,7 @@
 					m_blendValueSource = "Parameter"
 					m_param = 
 					{
-						m_id = 1601109085
+						m_id = 605095056
 					}
 					m_blendKeyType = "BlendKey_UserValue"
 					m_bLockBlendOnReset = false
@@ -94,170 +132,34 @@
 			{
 				key = 
 				{
-					m_id = 269482778
-				}
-				value = 
-				{
-					_class = "CGroupInputAnimNode"
-					m_sName = "Unnamed"
-					m_vecPosition = [ -144.0, 112.0 ]
-					m_nNodeID = 
-					{
-						m_id = 269482778
-					}
-					m_sNote = ""
-					m_proxyItems = 
-					[
-						{
-							m_name = ""
-							m_outputID = 
-							{
-								m_id = 967484482
-							}
-							m_inputConnection = 
-							{
-								m_nodeID = 
-								{
-									m_id = 4294967295
-								}
-								m_outputID = 
-								{
-									m_id = 4294967295
-								}
-							}
-						},
-					]
-				}
-			},
-			{
-				key = 
-				{
-					m_id = 384988814
-				}
-				value = 
-				{
-					_class = "CSingleFrameAnimNode"
-					m_sName = "Unnamed"
-					m_vecPosition = [ -416.0, 160.0 ]
-					m_nNodeID = 
-					{
-						m_id = 384988814
-					}
-					m_sNote = ""
-					m_sequenceName = "lean"
-					m_nFrameIndex = 0
-					m_tagSpans = [  ]
-				}
-			},
-			{
-				key = 
-				{
-					m_id = 613977173
-				}
-				value = 
-				{
-					_class = "CSingleFrameAnimNode"
-					m_sName = "Unnamed"
-					m_vecPosition = [ -416.0, 208.0 ]
-					m_nNodeID = 
-					{
-						m_id = 613977173
-					}
-					m_sNote = ""
-					m_sequenceName = "lean"
-					m_nFrameIndex = 6
-					m_tagSpans = [  ]
-				}
-			},
-			{
-				key = 
-				{
-					m_id = 1201434993
-				}
-				value = 
-				{
-					_class = "CGroupOutputAnimNode"
-					m_sName = "Unnamed"
-					m_vecPosition = [ 272.0, 112.0 ]
-					m_nNodeID = 
-					{
-						m_id = 1201434993
-					}
-					m_sNote = ""
-					m_proxyItems = 
-					[
-						{
-							m_name = ""
-							m_outputID = 
-							{
-								m_id = 1522844646
-							}
-							m_inputConnection = 
-							{
-								m_nodeID = 
-								{
-									m_id = 1428776113
-								}
-								m_outputID = 
-								{
-									m_id = 4294967295
-								}
-							}
-						},
-					]
-				}
-			},
-			{
-				key = 
-				{
-					m_id = 1366624004
-				}
-				value = 
-				{
-					_class = "CSingleFrameAnimNode"
-					m_sName = "Unnamed"
-					m_vecPosition = [ -416.0, 256.0 ]
-					m_nNodeID = 
-					{
-						m_id = 1366624004
-					}
-					m_sNote = ""
-					m_sequenceName = "lean"
-					m_nFrameIndex = 12
-					m_tagSpans = [  ]
-				}
-			},
-			{
-				key = 
-				{
-					m_id = 1428776113
+					m_id = 1316962601
 				}
 				value = 
 				{
 					_class = "CAddAnimNode"
-					m_sName = "lean additive"
-					m_vecPosition = [ 64.0, 112.0 ]
+					m_sName = "Unnamed"
+					m_vecPosition = [ 192.0, -48.0 ]
 					m_nNodeID = 
 					{
-						m_id = 1428776113
+						m_id = 1316962601
 					}
 					m_sNote = ""
 					m_baseInput = 
 					{
 						m_nodeID = 
 						{
-							m_id = 269482778
+							m_id = 160430103
 						}
 						m_outputID = 
 						{
-							m_id = 967484482
+							m_id = 2080563261
 						}
 					}
 					m_additiveInput = 
 					{
 						m_nodeID = 
 						{
-							m_id = 203140709
+							m_id = 1152862657
 						}
 						m_outputID = 
 						{
@@ -273,6 +175,104 @@
 					m_bModelSpace = true
 				}
 			},
+			{
+				key = 
+				{
+					m_id = 1333262626
+				}
+				value = 
+				{
+					_class = "CSingleFrameAnimNode"
+					m_sName = "Unnamed"
+					m_vecPosition = [ -176.0, 64.0 ]
+					m_nNodeID = 
+					{
+						m_id = 1333262626
+					}
+					m_sNote = ""
+					m_sequenceName = "lean"
+					m_nFrameIndex = 6
+					m_tagSpans = [  ]
+				}
+			},
+			{
+				key = 
+				{
+					m_id = 1568770558
+				}
+				value = 
+				{
+					_class = "CSingleFrameAnimNode"
+					m_sName = "Unnamed"
+					m_vecPosition = [ -176.0, 112.0 ]
+					m_nNodeID = 
+					{
+						m_id = 1568770558
+					}
+					m_sNote = ""
+					m_sequenceName = "lean"
+					m_nFrameIndex = 12
+					m_tagSpans = [  ]
+				}
+			},
+			{
+				key = 
+				{
+					m_id = 1696747664
+				}
+				value = 
+				{
+					_class = "CGroupOutputAnimNode"
+					m_sName = "Unnamed"
+					m_vecPosition = [ 384.0, -48.0 ]
+					m_nNodeID = 
+					{
+						m_id = 1696747664
+					}
+					m_sNote = ""
+					m_proxyItems = 
+					[
+						{
+							m_name = ""
+							m_outputID = 
+							{
+								m_id = 1583638597
+							}
+							m_inputConnection = 
+							{
+								m_nodeID = 
+								{
+									m_id = 1316962601
+								}
+								m_outputID = 
+								{
+									m_id = 4294967295
+								}
+							}
+						},
+					]
+				}
+			},
+			{
+				key = 
+				{
+					m_id = 1768823149
+				}
+				value = 
+				{
+					_class = "CSingleFrameAnimNode"
+					m_sName = "Unnamed"
+					m_vecPosition = [ -176.0, 16.0 ]
+					m_nNodeID = 
+					{
+						m_id = 1768823149
+					}
+					m_sNote = ""
+					m_sequenceName = "lean"
+					m_nFrameIndex = 0
+					m_tagSpans = [  ]
+				}
+			},
 		]
 	}
 	m_localParameters = 
@@ -282,7 +282,7 @@
 			m_name = "lean"
 			m_id = 
 			{
-				m_id = 1601109085
+				m_id = 605095056
 			}
 			m_previewButton = "ANIMPARAM_BUTTON_NONE"
 			m_bUseMostRecentValue = false
